@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="pFileName">${env:UIS_LOG_FILE:-uis-log.txt}</Property>
+        <Property name="pFormat">%-5level %c{1}:%L - %msg%n</Property>
+    </Properties>
+    <Appenders>
+        <Console name="screen" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} -- ${pFormat}"/>
+        </Console>
+        <File name="file" fileName="${pFileName}" append="false"
+              immediateFlush="true">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} -- ${pFormat}"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="file"/>
+            <AppenderRef ref="screen"/>
+        </Root>
+    </Loggers>
+</Configuration>

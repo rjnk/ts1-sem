@@ -1,0 +1,2147 @@
+{
+   "dataContainer" : {
+      "entities" : {
+         "examinationDate" : [ {
+            "id" : 33,
+            "dateOfTest" : "2018-04-11T13:04:38+02:00",
+            "maxParticipants" : 10,
+            "participants" : [ {
+               "id" : 15,
+               "email" : "brown@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Noah",
+               "lastName" : "Brown",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "brown",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               } ]
+            }, {
+               "id" : 16,
+               "email" : "maroon@mail.edu",
+               "enabled" : 1,
+               "firstName" : "William",
+               "lastName" : "Maroon",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "maroon",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               } ]
+            }, {
+               "id" : 19,
+               "email" : "gray@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Michael",
+               "lastName" : "Gray",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "gray",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               }, {
+                  "id" : 10,
+                  "creditRating" : 3,
+                  "name" : "Database Systems"
+               }, {
+                  "id" : 14,
+                  "creditRating" : 2,
+                  "name" : "Numerical Methods"
+               } ]
+            }, {
+               "id" : 20,
+               "email" : "cyan@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Ethan",
+               "lastName" : "Cyan",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "cyan",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 3,
+                  "creditRating" : 3,
+                  "name" : "Introduction to Algorithms"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               }, {
+                  "id" : 7,
+                  "creditRating" : 5,
+                  "name" : "Mobile Applications"
+               }, {
+                  "id" : 13,
+                  "creditRating" : 1,
+                  "name" : "Linear Algebra"
+               } ]
+            }, {
+               "id" : 21,
+               "email" : "pink@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Emma",
+               "lastName" : "Pink",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "pink",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 3,
+                  "creditRating" : 3,
+                  "name" : "Introduction to Algorithms"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 7,
+                  "creditRating" : 5,
+                  "name" : "Mobile Applications"
+               }, {
+                  "id" : 14,
+                  "creditRating" : 2,
+                  "name" : "Numerical Methods"
+               } ]
+            }, {
+               "id" : 22,
+               "email" : "red@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Sophia",
+               "lastName" : "Red",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "red",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 8,
+                  "creditRating" : 6,
+                  "name" : "Software Engineering"
+               }, {
+                  "id" : 10,
+                  "creditRating" : 3,
+                  "name" : "Database Systems"
+               }, {
+                  "id" : 13,
+                  "creditRating" : 1,
+                  "name" : "Linear Algebra"
+               } ]
+            }, {
+               "id" : 23,
+               "email" : "yellow@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Isabella",
+               "lastName" : "Yellow",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "yellow",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 8,
+                  "creditRating" : 6,
+                  "name" : "Software Engineering"
+               } ]
+            }, {
+               "id" : 24,
+               "email" : "orange@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Mia",
+               "lastName" : "Orange",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "orange",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 9,
+                  "creditRating" : 3,
+                  "name" : "Fundamentals of Computer Networks"
+               } ]
+            }, {
+               "id" : 25,
+               "email" : "purple@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Charlotte",
+               "lastName" : "Purple",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "purple",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 9,
+                  "creditRating" : 3,
+                  "name" : "Fundamentals of Computer Networks"
+               }, {
+                  "id" : 11,
+                  "creditRating" : 1,
+                  "name" : "Programming Techniques"
+               } ]
+            } ],
+            "subject" : {
+               "id" : 1,
+               "creditRating" : 4,
+               "name" : "Programming in Java"
+            },
+            "teacher" : {
+               "id" : 27,
+               "email" : "strict@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Peter",
+               "lastName" : "Strict",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "strict",
+               "listOfTaughtSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 8,
+                  "creditRating" : 6,
+                  "name" : "Software Engineering"
+               }, {
+                  "id" : 12,
+                  "creditRating" : 2,
+                  "name" : "Operating Systems"
+               } ]
+            }
+         }, {
+            "id" : 34,
+            "dateOfTest" : "2018-04-11T13:04:38+02:00",
+            "maxParticipants" : 10,
+            "participants" : [ {
+               "id" : 16,
+               "email" : "maroon@mail.edu",
+               "enabled" : 1,
+               "firstName" : "William",
+               "lastName" : "Maroon",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "maroon",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               } ]
+            }, {
+               "id" : 18,
+               "email" : "green@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Benjamin",
+               "lastName" : "Green",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "green",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               } ]
+            }, {
+               "id" : 19,
+               "email" : "gray@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Michael",
+               "lastName" : "Gray",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "gray",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               }, {
+                  "id" : 10,
+                  "creditRating" : 3,
+                  "name" : "Database Systems"
+               }, {
+                  "id" : 14,
+                  "creditRating" : 2,
+                  "name" : "Numerical Methods"
+               } ]
+            }, {
+               "id" : 20,
+               "email" : "cyan@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Ethan",
+               "lastName" : "Cyan",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "cyan",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 3,
+                  "creditRating" : 3,
+                  "name" : "Introduction to Algorithms"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               }, {
+                  "id" : 7,
+                  "creditRating" : 5,
+                  "name" : "Mobile Applications"
+               }, {
+                  "id" : 13,
+                  "creditRating" : 1,
+                  "name" : "Linear Algebra"
+               } ]
+            }, {
+               "id" : 22,
+               "email" : "red@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Sophia",
+               "lastName" : "Red",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "red",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 8,
+                  "creditRating" : 6,
+                  "name" : "Software Engineering"
+               }, {
+                  "id" : 10,
+                  "creditRating" : 3,
+                  "name" : "Database Systems"
+               }, {
+                  "id" : 13,
+                  "creditRating" : 1,
+                  "name" : "Linear Algebra"
+               } ]
+            }, {
+               "id" : 23,
+               "email" : "yellow@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Isabella",
+               "lastName" : "Yellow",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "yellow",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 8,
+                  "creditRating" : 6,
+                  "name" : "Software Engineering"
+               } ]
+            }, {
+               "id" : 24,
+               "email" : "orange@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Mia",
+               "lastName" : "Orange",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "orange",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 9,
+                  "creditRating" : 3,
+                  "name" : "Fundamentals of Computer Networks"
+               } ]
+            }, {
+               "id" : 25,
+               "email" : "purple@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Charlotte",
+               "lastName" : "Purple",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "purple",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 9,
+                  "creditRating" : 3,
+                  "name" : "Fundamentals of Computer Networks"
+               }, {
+                  "id" : 11,
+                  "creditRating" : 1,
+                  "name" : "Programming Techniques"
+               } ]
+            } ],
+            "subject" : {
+               "id" : 2,
+               "creditRating" : 5,
+               "name" : "Computation Structures"
+            },
+            "teacher" : {
+               "id" : 32,
+               "email" : "easyrider@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Julia",
+               "lastName" : "Easyrider",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "easyrider",
+               "listOfTaughtSubjects" : [ {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               } ]
+            }
+         }, {
+            "id" : 35,
+            "dateOfTest" : "2018-04-11T13:04:38+02:00",
+            "maxParticipants" : 10,
+            "participants" : [ {
+               "id" : 20,
+               "email" : "cyan@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Ethan",
+               "lastName" : "Cyan",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "cyan",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 3,
+                  "creditRating" : 3,
+                  "name" : "Introduction to Algorithms"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               }, {
+                  "id" : 7,
+                  "creditRating" : 5,
+                  "name" : "Mobile Applications"
+               }, {
+                  "id" : 13,
+                  "creditRating" : 1,
+                  "name" : "Linear Algebra"
+               } ]
+            }, {
+               "id" : 21,
+               "email" : "pink@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Emma",
+               "lastName" : "Pink",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "pink",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 3,
+                  "creditRating" : 3,
+                  "name" : "Introduction to Algorithms"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 7,
+                  "creditRating" : 5,
+                  "name" : "Mobile Applications"
+               }, {
+                  "id" : 14,
+                  "creditRating" : 2,
+                  "name" : "Numerical Methods"
+               } ]
+            } ],
+            "subject" : {
+               "id" : 3,
+               "creditRating" : 3,
+               "name" : "Introduction to Algorithms"
+            },
+            "teacher" : {
+               "id" : 30,
+               "email" : "keen@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Olivia",
+               "lastName" : "Keen",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "keen",
+               "listOfTaughtSubjects" : [ {
+                  "id" : 3,
+                  "creditRating" : 3,
+                  "name" : "Introduction to Algorithms"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               }, {
+                  "id" : 7,
+                  "creditRating" : 5,
+                  "name" : "Mobile Applications"
+               }, {
+                  "id" : 9,
+                  "creditRating" : 3,
+                  "name" : "Fundamentals of Computer Networks"
+               } ]
+            }
+         }, {
+            "id" : 36,
+            "dateOfTest" : "2018-04-11T13:04:38+02:00",
+            "maxParticipants" : 10,
+            "participants" : [ {
+               "id" : 18,
+               "email" : "green@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Benjamin",
+               "lastName" : "Green",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "green",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               } ]
+            }, {
+               "id" : 23,
+               "email" : "yellow@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Isabella",
+               "lastName" : "Yellow",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "yellow",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 8,
+                  "creditRating" : 6,
+                  "name" : "Software Engineering"
+               } ]
+            }, {
+               "id" : 24,
+               "email" : "orange@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Mia",
+               "lastName" : "Orange",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "orange",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 9,
+                  "creditRating" : 3,
+                  "name" : "Fundamentals of Computer Networks"
+               } ]
+            }, {
+               "id" : 25,
+               "email" : "purple@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Charlotte",
+               "lastName" : "Purple",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "purple",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 9,
+                  "creditRating" : 3,
+                  "name" : "Fundamentals of Computer Networks"
+               }, {
+                  "id" : 11,
+                  "creditRating" : 1,
+                  "name" : "Programming Techniques"
+               } ]
+            } ],
+            "subject" : {
+               "id" : 4,
+               "creditRating" : 6,
+               "name" : "Computer System Engineering"
+            },
+            "teacher" : {
+               "id" : 31,
+               "email" : "pedant@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Alice",
+               "lastName" : "Pedant",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "pedant",
+               "listOfTaughtSubjects" : [ {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 10,
+                  "creditRating" : 3,
+                  "name" : "Database Systems"
+               }, {
+                  "id" : 11,
+                  "creditRating" : 1,
+                  "name" : "Programming Techniques"
+               }, {
+                  "id" : 12,
+                  "creditRating" : 2,
+                  "name" : "Operating Systems"
+               } ]
+            }
+         }, {
+            "id" : 37,
+            "dateOfTest" : "2018-04-11T13:04:38+02:00",
+            "maxParticipants" : 10,
+            "participants" : [ {
+               "id" : 21,
+               "email" : "pink@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Emma",
+               "lastName" : "Pink",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "pink",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 3,
+                  "creditRating" : 3,
+                  "name" : "Introduction to Algorithms"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 7,
+                  "creditRating" : 5,
+                  "name" : "Mobile Applications"
+               }, {
+                  "id" : 14,
+                  "creditRating" : 2,
+                  "name" : "Numerical Methods"
+               } ]
+            }, {
+               "id" : 22,
+               "email" : "red@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Sophia",
+               "lastName" : "Red",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "red",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 8,
+                  "creditRating" : 6,
+                  "name" : "Software Engineering"
+               }, {
+                  "id" : 10,
+                  "creditRating" : 3,
+                  "name" : "Database Systems"
+               }, {
+                  "id" : 13,
+                  "creditRating" : 1,
+                  "name" : "Linear Algebra"
+               } ]
+            }, {
+               "id" : 23,
+               "email" : "yellow@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Isabella",
+               "lastName" : "Yellow",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "yellow",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 8,
+                  "creditRating" : 6,
+                  "name" : "Software Engineering"
+               } ]
+            }, {
+               "id" : 24,
+               "email" : "orange@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Mia",
+               "lastName" : "Orange",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "orange",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 9,
+                  "creditRating" : 3,
+                  "name" : "Fundamentals of Computer Networks"
+               } ]
+            } ],
+            "subject" : {
+               "id" : 5,
+               "creditRating" : 5,
+               "name" : "Software Quality Assurance"
+            },
+            "teacher" : {
+               "id" : 27,
+               "email" : "strict@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Peter",
+               "lastName" : "Strict",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "strict",
+               "listOfTaughtSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 8,
+                  "creditRating" : 6,
+                  "name" : "Software Engineering"
+               }, {
+                  "id" : 12,
+                  "creditRating" : 2,
+                  "name" : "Operating Systems"
+               } ]
+            }
+         }, {
+            "id" : 38,
+            "dateOfTest" : "2018-04-11T13:04:38+02:00",
+            "maxParticipants" : 10,
+            "participants" : [ {
+               "id" : 18,
+               "email" : "green@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Benjamin",
+               "lastName" : "Green",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "green",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               } ]
+            }, {
+               "id" : 19,
+               "email" : "gray@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Michael",
+               "lastName" : "Gray",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "gray",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               }, {
+                  "id" : 10,
+                  "creditRating" : 3,
+                  "name" : "Database Systems"
+               }, {
+                  "id" : 14,
+                  "creditRating" : 2,
+                  "name" : "Numerical Methods"
+               } ]
+            }, {
+               "id" : 20,
+               "email" : "cyan@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Ethan",
+               "lastName" : "Cyan",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "cyan",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 3,
+                  "creditRating" : 3,
+                  "name" : "Introduction to Algorithms"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               }, {
+                  "id" : 7,
+                  "creditRating" : 5,
+                  "name" : "Mobile Applications"
+               }, {
+                  "id" : 13,
+                  "creditRating" : 1,
+                  "name" : "Linear Algebra"
+               } ]
+            } ],
+            "subject" : {
+               "id" : 6,
+               "creditRating" : 4,
+               "name" : "Web Programming"
+            },
+            "teacher" : {
+               "id" : 30,
+               "email" : "keen@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Olivia",
+               "lastName" : "Keen",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "keen",
+               "listOfTaughtSubjects" : [ {
+                  "id" : 3,
+                  "creditRating" : 3,
+                  "name" : "Introduction to Algorithms"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               }, {
+                  "id" : 7,
+                  "creditRating" : 5,
+                  "name" : "Mobile Applications"
+               }, {
+                  "id" : 9,
+                  "creditRating" : 3,
+                  "name" : "Fundamentals of Computer Networks"
+               } ]
+            }
+         }, {
+            "id" : 39,
+            "dateOfTest" : "2018-04-11T13:04:38+02:00",
+            "maxParticipants" : 10,
+            "participants" : [ {
+               "id" : 21,
+               "email" : "pink@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Emma",
+               "lastName" : "Pink",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "pink",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 3,
+                  "creditRating" : 3,
+                  "name" : "Introduction to Algorithms"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 7,
+                  "creditRating" : 5,
+                  "name" : "Mobile Applications"
+               }, {
+                  "id" : 14,
+                  "creditRating" : 2,
+                  "name" : "Numerical Methods"
+               } ]
+            } ],
+            "subject" : {
+               "id" : 7,
+               "creditRating" : 5,
+               "name" : "Mobile Applications"
+            },
+            "teacher" : {
+               "id" : 30,
+               "email" : "keen@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Olivia",
+               "lastName" : "Keen",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "keen",
+               "listOfTaughtSubjects" : [ {
+                  "id" : 3,
+                  "creditRating" : 3,
+                  "name" : "Introduction to Algorithms"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               }, {
+                  "id" : 7,
+                  "creditRating" : 5,
+                  "name" : "Mobile Applications"
+               }, {
+                  "id" : 9,
+                  "creditRating" : 3,
+                  "name" : "Fundamentals of Computer Networks"
+               } ]
+            }
+         }, {
+            "id" : 40,
+            "dateOfTest" : "2018-04-11T13:04:38+02:00",
+            "maxParticipants" : 10,
+            "participants" : [ ],
+            "subject" : {
+               "id" : 8,
+               "creditRating" : 6,
+               "name" : "Software Engineering"
+            },
+            "teacher" : {
+               "id" : 27,
+               "email" : "strict@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Peter",
+               "lastName" : "Strict",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "strict",
+               "listOfTaughtSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 8,
+                  "creditRating" : 6,
+                  "name" : "Software Engineering"
+               }, {
+                  "id" : 12,
+                  "creditRating" : 2,
+                  "name" : "Operating Systems"
+               } ]
+            }
+         }, {
+            "id" : 41,
+            "dateOfTest" : "2018-04-11T13:04:38+02:00",
+            "maxParticipants" : 10,
+            "participants" : [ {
+               "id" : 24,
+               "email" : "orange@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Mia",
+               "lastName" : "Orange",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "orange",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 9,
+                  "creditRating" : 3,
+                  "name" : "Fundamentals of Computer Networks"
+               } ]
+            }, {
+               "id" : 25,
+               "email" : "purple@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Charlotte",
+               "lastName" : "Purple",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "purple",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 9,
+                  "creditRating" : 3,
+                  "name" : "Fundamentals of Computer Networks"
+               }, {
+                  "id" : 11,
+                  "creditRating" : 1,
+                  "name" : "Programming Techniques"
+               } ]
+            } ],
+            "subject" : {
+               "id" : 9,
+               "creditRating" : 3,
+               "name" : "Fundamentals of Computer Networks"
+            },
+            "teacher" : {
+               "id" : 30,
+               "email" : "keen@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Olivia",
+               "lastName" : "Keen",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "keen",
+               "listOfTaughtSubjects" : [ {
+                  "id" : 3,
+                  "creditRating" : 3,
+                  "name" : "Introduction to Algorithms"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               }, {
+                  "id" : 7,
+                  "creditRating" : 5,
+                  "name" : "Mobile Applications"
+               }, {
+                  "id" : 9,
+                  "creditRating" : 3,
+                  "name" : "Fundamentals of Computer Networks"
+               } ]
+            }
+         }, {
+            "id" : 42,
+            "dateOfTest" : "2018-04-11T13:04:38+02:00",
+            "maxParticipants" : 10,
+            "participants" : [ {
+               "id" : 19,
+               "email" : "gray@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Michael",
+               "lastName" : "Gray",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "gray",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               }, {
+                  "id" : 10,
+                  "creditRating" : 3,
+                  "name" : "Database Systems"
+               }, {
+                  "id" : 14,
+                  "creditRating" : 2,
+                  "name" : "Numerical Methods"
+               } ]
+            }, {
+               "id" : 22,
+               "email" : "red@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Sophia",
+               "lastName" : "Red",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "red",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 8,
+                  "creditRating" : 6,
+                  "name" : "Software Engineering"
+               }, {
+                  "id" : 10,
+                  "creditRating" : 3,
+                  "name" : "Database Systems"
+               }, {
+                  "id" : 13,
+                  "creditRating" : 1,
+                  "name" : "Linear Algebra"
+               } ]
+            } ],
+            "subject" : {
+               "id" : 10,
+               "creditRating" : 3,
+               "name" : "Database Systems"
+            },
+            "teacher" : {
+               "id" : 31,
+               "email" : "pedant@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Alice",
+               "lastName" : "Pedant",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "pedant",
+               "listOfTaughtSubjects" : [ {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 10,
+                  "creditRating" : 3,
+                  "name" : "Database Systems"
+               }, {
+                  "id" : 11,
+                  "creditRating" : 1,
+                  "name" : "Programming Techniques"
+               }, {
+                  "id" : 12,
+                  "creditRating" : 2,
+                  "name" : "Operating Systems"
+               } ]
+            }
+         }, {
+            "id" : 43,
+            "dateOfTest" : "2018-04-11T13:04:38+02:00",
+            "maxParticipants" : 10,
+            "participants" : [ ],
+            "subject" : {
+               "id" : 11,
+               "creditRating" : 1,
+               "name" : "Programming Techniques"
+            },
+            "teacher" : {
+               "id" : 31,
+               "email" : "pedant@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Alice",
+               "lastName" : "Pedant",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "pedant",
+               "listOfTaughtSubjects" : [ {
+                  "id" : 4,
+                  "creditRating" : 6,
+                  "name" : "Computer System Engineering"
+               }, {
+                  "id" : 10,
+                  "creditRating" : 3,
+                  "name" : "Database Systems"
+               }, {
+                  "id" : 11,
+                  "creditRating" : 1,
+                  "name" : "Programming Techniques"
+               }, {
+                  "id" : 12,
+                  "creditRating" : 2,
+                  "name" : "Operating Systems"
+               } ]
+            }
+         }, {
+            "id" : 44,
+            "dateOfTest" : "2018-04-11T13:04:38+02:00",
+            "maxParticipants" : 10,
+            "participants" : [ ],
+            "subject" : {
+               "id" : 12,
+               "creditRating" : 2,
+               "name" : "Operating Systems"
+            },
+            "teacher" : {
+               "id" : 27,
+               "email" : "strict@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Peter",
+               "lastName" : "Strict",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "strict",
+               "listOfTaughtSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 8,
+                  "creditRating" : 6,
+                  "name" : "Software Engineering"
+               }, {
+                  "id" : 12,
+                  "creditRating" : 2,
+                  "name" : "Operating Systems"
+               } ]
+            }
+         }, {
+            "id" : 45,
+            "dateOfTest" : "2018-04-11T13:04:38+02:00",
+            "maxParticipants" : 10,
+            "participants" : [ {
+               "id" : 20,
+               "email" : "cyan@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Ethan",
+               "lastName" : "Cyan",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "cyan",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 3,
+                  "creditRating" : 3,
+                  "name" : "Introduction to Algorithms"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               }, {
+                  "id" : 7,
+                  "creditRating" : 5,
+                  "name" : "Mobile Applications"
+               }, {
+                  "id" : 13,
+                  "creditRating" : 1,
+                  "name" : "Linear Algebra"
+               } ]
+            }, {
+               "id" : 22,
+               "email" : "red@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Sophia",
+               "lastName" : "Red",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "red",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 8,
+                  "creditRating" : 6,
+                  "name" : "Software Engineering"
+               }, {
+                  "id" : 10,
+                  "creditRating" : 3,
+                  "name" : "Database Systems"
+               }, {
+                  "id" : 13,
+                  "creditRating" : 1,
+                  "name" : "Linear Algebra"
+               } ]
+            } ],
+            "subject" : {
+               "id" : 13,
+               "creditRating" : 1,
+               "name" : "Linear Algebra"
+            },
+            "teacher" : {
+               "id" : 29,
+               "email" : "scatterbrained@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Thomas",
+               "lastName" : "Scatterbrained",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "scatterbrained",
+               "listOfTaughtSubjects" : [ {
+                  "id" : 13,
+                  "creditRating" : 1,
+                  "name" : "Linear Algebra"
+               }, {
+                  "id" : 14,
+                  "creditRating" : 2,
+                  "name" : "Numerical Methods"
+               } ]
+            }
+         }, {
+            "id" : 46,
+            "dateOfTest" : "2018-04-11T13:04:38+02:00",
+            "maxParticipants" : 10,
+            "participants" : [ {
+               "id" : 19,
+               "email" : "gray@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Michael",
+               "lastName" : "Gray",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "gray",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 2,
+                  "creditRating" : 5,
+                  "name" : "Computation Structures"
+               }, {
+                  "id" : 6,
+                  "creditRating" : 4,
+                  "name" : "Web Programming"
+               }, {
+                  "id" : 10,
+                  "creditRating" : 3,
+                  "name" : "Database Systems"
+               }, {
+                  "id" : 14,
+                  "creditRating" : 2,
+                  "name" : "Numerical Methods"
+               } ]
+            }, {
+               "id" : 21,
+               "email" : "pink@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Emma",
+               "lastName" : "Pink",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "pink",
+               "listOfAbsolvedSubjects" : [ ],
+               "listOfLearnedSubjects" : [ {
+                  "id" : 1,
+                  "creditRating" : 4,
+                  "name" : "Programming in Java"
+               }, {
+                  "id" : 3,
+                  "creditRating" : 3,
+                  "name" : "Introduction to Algorithms"
+               }, {
+                  "id" : 5,
+                  "creditRating" : 5,
+                  "name" : "Software Quality Assurance"
+               }, {
+                  "id" : 7,
+                  "creditRating" : 5,
+                  "name" : "Mobile Applications"
+               }, {
+                  "id" : 14,
+                  "creditRating" : 2,
+                  "name" : "Numerical Methods"
+               } ]
+            } ],
+            "subject" : {
+               "id" : 14,
+               "creditRating" : 2,
+               "name" : "Numerical Methods"
+            },
+            "teacher" : {
+               "id" : 29,
+               "email" : "scatterbrained@mail.edu",
+               "enabled" : 1,
+               "firstName" : "Thomas",
+               "lastName" : "Scatterbrained",
+               "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+               "username" : "scatterbrained",
+               "listOfTaughtSubjects" : [ {
+                  "id" : 13,
+                  "creditRating" : 1,
+                  "name" : "Linear Algebra"
+               }, {
+                  "id" : 14,
+                  "creditRating" : 2,
+                  "name" : "Numerical Methods"
+               } ]
+            }
+         } ],
+         "subject" : [ {
+            "id" : 1,
+            "creditRating" : 4,
+            "name" : "Programming in Java"
+         }, {
+            "id" : 2,
+            "creditRating" : 5,
+            "name" : "Computation Structures"
+         }, {
+            "id" : 3,
+            "creditRating" : 3,
+            "name" : "Introduction to Algorithms"
+         }, {
+            "id" : 4,
+            "creditRating" : 6,
+            "name" : "Computer System Engineering"
+         }, {
+            "id" : 5,
+            "creditRating" : 5,
+            "name" : "Software Quality Assurance"
+         }, {
+            "id" : 6,
+            "creditRating" : 4,
+            "name" : "Web Programming"
+         }, {
+            "id" : 7,
+            "creditRating" : 5,
+            "name" : "Mobile Applications"
+         }, {
+            "id" : 8,
+            "creditRating" : 6,
+            "name" : "Software Engineering"
+         }, {
+            "id" : 9,
+            "creditRating" : 3,
+            "name" : "Fundamentals of Computer Networks"
+         }, {
+            "id" : 10,
+            "creditRating" : 3,
+            "name" : "Database Systems"
+         }, {
+            "id" : 11,
+            "creditRating" : 1,
+            "name" : "Programming Techniques"
+         }, {
+            "id" : 12,
+            "creditRating" : 2,
+            "name" : "Operating Systems"
+         }, {
+            "id" : 13,
+            "creditRating" : 1,
+            "name" : "Linear Algebra"
+         }, {
+            "id" : 14,
+            "creditRating" : 2,
+            "name" : "Numerical Methods"
+         } ],
+         "gradeType" : [ {
+            "id" : 47,
+            "name" : "A",
+            "value" : 1.0
+         }, {
+            "id" : 48,
+            "name" : "B",
+            "value" : 1.5
+         }, {
+            "id" : 49,
+            "name" : "C",
+            "value" : 2.0
+         }, {
+            "id" : 50,
+            "name" : "D",
+            "value" : 2.5
+         }, {
+            "id" : 51,
+            "name" : "E",
+            "value" : 3.0
+         }, {
+            "id" : 52,
+            "name" : "F",
+            "value" : 4.0
+         } ],
+         "student" : [ {
+            "id" : 15,
+            "email" : "brown@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Noah",
+            "lastName" : "Brown",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "brown",
+            "listOfAbsolvedSubjects" : [ ],
+            "listOfLearnedSubjects" : [ {
+               "id" : 1,
+               "creditRating" : 4,
+               "name" : "Programming in Java"
+            } ]
+         }, {
+            "id" : 16,
+            "email" : "maroon@mail.edu",
+            "enabled" : 1,
+            "firstName" : "William",
+            "lastName" : "Maroon",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "maroon",
+            "listOfAbsolvedSubjects" : [ ],
+            "listOfLearnedSubjects" : [ {
+               "id" : 1,
+               "creditRating" : 4,
+               "name" : "Programming in Java"
+            }, {
+               "id" : 2,
+               "creditRating" : 5,
+               "name" : "Computation Structures"
+            } ]
+         }, {
+            "id" : 17,
+            "email" : "blue@mail.edu",
+            "enabled" : 1,
+            "firstName" : "James",
+            "lastName" : "Blue",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "blue",
+            "listOfAbsolvedSubjects" : [ ],
+            "listOfLearnedSubjects" : [ {
+               "id" : 1,
+               "creditRating" : 4,
+               "name" : "Programming in Java"
+            }, {
+               "id" : 2,
+               "creditRating" : 5,
+               "name" : "Computation Structures"
+            }, {
+               "id" : 4,
+               "creditRating" : 6,
+               "name" : "Computer System Engineering"
+            } ]
+         }, {
+            "id" : 18,
+            "email" : "green@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Benjamin",
+            "lastName" : "Green",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "green",
+            "listOfAbsolvedSubjects" : [ ],
+            "listOfLearnedSubjects" : [ {
+               "id" : 1,
+               "creditRating" : 4,
+               "name" : "Programming in Java"
+            }, {
+               "id" : 2,
+               "creditRating" : 5,
+               "name" : "Computation Structures"
+            }, {
+               "id" : 4,
+               "creditRating" : 6,
+               "name" : "Computer System Engineering"
+            }, {
+               "id" : 6,
+               "creditRating" : 4,
+               "name" : "Web Programming"
+            } ]
+         }, {
+            "id" : 19,
+            "email" : "gray@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Michael",
+            "lastName" : "Gray",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "gray",
+            "listOfAbsolvedSubjects" : [ ],
+            "listOfLearnedSubjects" : [ {
+               "id" : 1,
+               "creditRating" : 4,
+               "name" : "Programming in Java"
+            }, {
+               "id" : 2,
+               "creditRating" : 5,
+               "name" : "Computation Structures"
+            }, {
+               "id" : 6,
+               "creditRating" : 4,
+               "name" : "Web Programming"
+            }, {
+               "id" : 10,
+               "creditRating" : 3,
+               "name" : "Database Systems"
+            }, {
+               "id" : 14,
+               "creditRating" : 2,
+               "name" : "Numerical Methods"
+            } ]
+         }, {
+            "id" : 20,
+            "email" : "cyan@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Ethan",
+            "lastName" : "Cyan",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "cyan",
+            "listOfAbsolvedSubjects" : [ ],
+            "listOfLearnedSubjects" : [ {
+               "id" : 1,
+               "creditRating" : 4,
+               "name" : "Programming in Java"
+            }, {
+               "id" : 2,
+               "creditRating" : 5,
+               "name" : "Computation Structures"
+            }, {
+               "id" : 3,
+               "creditRating" : 3,
+               "name" : "Introduction to Algorithms"
+            }, {
+               "id" : 6,
+               "creditRating" : 4,
+               "name" : "Web Programming"
+            }, {
+               "id" : 7,
+               "creditRating" : 5,
+               "name" : "Mobile Applications"
+            }, {
+               "id" : 13,
+               "creditRating" : 1,
+               "name" : "Linear Algebra"
+            } ]
+         }, {
+            "id" : 21,
+            "email" : "pink@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Emma",
+            "lastName" : "Pink",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "pink",
+            "listOfAbsolvedSubjects" : [ ],
+            "listOfLearnedSubjects" : [ {
+               "id" : 1,
+               "creditRating" : 4,
+               "name" : "Programming in Java"
+            }, {
+               "id" : 3,
+               "creditRating" : 3,
+               "name" : "Introduction to Algorithms"
+            }, {
+               "id" : 5,
+               "creditRating" : 5,
+               "name" : "Software Quality Assurance"
+            }, {
+               "id" : 7,
+               "creditRating" : 5,
+               "name" : "Mobile Applications"
+            }, {
+               "id" : 14,
+               "creditRating" : 2,
+               "name" : "Numerical Methods"
+            } ]
+         }, {
+            "id" : 22,
+            "email" : "red@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Sophia",
+            "lastName" : "Red",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "red",
+            "listOfAbsolvedSubjects" : [ ],
+            "listOfLearnedSubjects" : [ {
+               "id" : 1,
+               "creditRating" : 4,
+               "name" : "Programming in Java"
+            }, {
+               "id" : 2,
+               "creditRating" : 5,
+               "name" : "Computation Structures"
+            }, {
+               "id" : 5,
+               "creditRating" : 5,
+               "name" : "Software Quality Assurance"
+            }, {
+               "id" : 8,
+               "creditRating" : 6,
+               "name" : "Software Engineering"
+            }, {
+               "id" : 10,
+               "creditRating" : 3,
+               "name" : "Database Systems"
+            }, {
+               "id" : 13,
+               "creditRating" : 1,
+               "name" : "Linear Algebra"
+            } ]
+         }, {
+            "id" : 23,
+            "email" : "yellow@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Isabella",
+            "lastName" : "Yellow",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "yellow",
+            "listOfAbsolvedSubjects" : [ ],
+            "listOfLearnedSubjects" : [ {
+               "id" : 1,
+               "creditRating" : 4,
+               "name" : "Programming in Java"
+            }, {
+               "id" : 2,
+               "creditRating" : 5,
+               "name" : "Computation Structures"
+            }, {
+               "id" : 4,
+               "creditRating" : 6,
+               "name" : "Computer System Engineering"
+            }, {
+               "id" : 5,
+               "creditRating" : 5,
+               "name" : "Software Quality Assurance"
+            }, {
+               "id" : 8,
+               "creditRating" : 6,
+               "name" : "Software Engineering"
+            } ]
+         }, {
+            "id" : 24,
+            "email" : "orange@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Mia",
+            "lastName" : "Orange",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "orange",
+            "listOfAbsolvedSubjects" : [ ],
+            "listOfLearnedSubjects" : [ {
+               "id" : 1,
+               "creditRating" : 4,
+               "name" : "Programming in Java"
+            }, {
+               "id" : 2,
+               "creditRating" : 5,
+               "name" : "Computation Structures"
+            }, {
+               "id" : 4,
+               "creditRating" : 6,
+               "name" : "Computer System Engineering"
+            }, {
+               "id" : 5,
+               "creditRating" : 5,
+               "name" : "Software Quality Assurance"
+            }, {
+               "id" : 9,
+               "creditRating" : 3,
+               "name" : "Fundamentals of Computer Networks"
+            } ]
+         }, {
+            "id" : 25,
+            "email" : "purple@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Charlotte",
+            "lastName" : "Purple",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "purple",
+            "listOfAbsolvedSubjects" : [ ],
+            "listOfLearnedSubjects" : [ {
+               "id" : 1,
+               "creditRating" : 4,
+               "name" : "Programming in Java"
+            }, {
+               "id" : 2,
+               "creditRating" : 5,
+               "name" : "Computation Structures"
+            }, {
+               "id" : 4,
+               "creditRating" : 6,
+               "name" : "Computer System Engineering"
+            }, {
+               "id" : 9,
+               "creditRating" : 3,
+               "name" : "Fundamentals of Computer Networks"
+            }, {
+               "id" : 11,
+               "creditRating" : 1,
+               "name" : "Programming Techniques"
+            } ]
+         }, {
+            "id" : 26,
+            "email" : "magenta@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Emily",
+            "lastName" : "Magenta",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "magenta",
+            "listOfAbsolvedSubjects" : [ ],
+            "listOfLearnedSubjects" : [ ]
+         } ],
+         "teacher" : [ {
+            "id" : 27,
+            "email" : "strict@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Peter",
+            "lastName" : "Strict",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "strict",
+            "listOfTaughtSubjects" : [ {
+               "id" : 1,
+               "creditRating" : 4,
+               "name" : "Programming in Java"
+            }, {
+               "id" : 5,
+               "creditRating" : 5,
+               "name" : "Software Quality Assurance"
+            }, {
+               "id" : 8,
+               "creditRating" : 6,
+               "name" : "Software Engineering"
+            }, {
+               "id" : 12,
+               "creditRating" : 2,
+               "name" : "Operating Systems"
+            } ]
+         }, {
+            "id" : 28,
+            "email" : "lazy@mail.edu",
+            "enabled" : 1,
+            "firstName" : "John",
+            "lastName" : "Lazy",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "lazy",
+            "listOfTaughtSubjects" : [ ]
+         }, {
+            "id" : 29,
+            "email" : "scatterbrained@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Thomas",
+            "lastName" : "Scatterbrained",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "scatterbrained",
+            "listOfTaughtSubjects" : [ {
+               "id" : 13,
+               "creditRating" : 1,
+               "name" : "Linear Algebra"
+            }, {
+               "id" : 14,
+               "creditRating" : 2,
+               "name" : "Numerical Methods"
+            } ]
+         }, {
+            "id" : 30,
+            "email" : "keen@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Olivia",
+            "lastName" : "Keen",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "keen",
+            "listOfTaughtSubjects" : [ {
+               "id" : 3,
+               "creditRating" : 3,
+               "name" : "Introduction to Algorithms"
+            }, {
+               "id" : 6,
+               "creditRating" : 4,
+               "name" : "Web Programming"
+            }, {
+               "id" : 7,
+               "creditRating" : 5,
+               "name" : "Mobile Applications"
+            }, {
+               "id" : 9,
+               "creditRating" : 3,
+               "name" : "Fundamentals of Computer Networks"
+            } ]
+         }, {
+            "id" : 31,
+            "email" : "pedant@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Alice",
+            "lastName" : "Pedant",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "pedant",
+            "listOfTaughtSubjects" : [ {
+               "id" : 4,
+               "creditRating" : 6,
+               "name" : "Computer System Engineering"
+            }, {
+               "id" : 10,
+               "creditRating" : 3,
+               "name" : "Database Systems"
+            }, {
+               "id" : 11,
+               "creditRating" : 1,
+               "name" : "Programming Techniques"
+            }, {
+               "id" : 12,
+               "creditRating" : 2,
+               "name" : "Operating Systems"
+            } ]
+         }, {
+            "id" : 32,
+            "email" : "easyrider@mail.edu",
+            "enabled" : 1,
+            "firstName" : "Julia",
+            "lastName" : "Easyrider",
+            "password" : "$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK",
+            "username" : "easyrider",
+            "listOfTaughtSubjects" : [ {
+               "id" : 2,
+               "creditRating" : 5,
+               "name" : "Computation Structures"
+            } ]
+         } ]
+      }
+   }
+}

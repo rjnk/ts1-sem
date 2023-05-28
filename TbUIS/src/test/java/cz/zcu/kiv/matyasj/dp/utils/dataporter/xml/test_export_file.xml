@@ -1,0 +1,2399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataContainer>
+    <entities>
+        <examinationDate>
+            <id>33</id>
+            <dateOfTest>2018-04-11T13:04:38+02:00</dateOfTest>
+            <maxParticipants>10</maxParticipants>
+            <participants>
+                <id>15</id>
+                <email>brown@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Noah</firstName>
+                <lastName>Brown</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>brown</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>16</id>
+                <email>maroon@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>William</firstName>
+                <lastName>Maroon</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>maroon</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>19</id>
+                <email>gray@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Michael</firstName>
+                <lastName>Gray</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>gray</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>10</id>
+                    <creditRating>3</creditRating>
+                    <name>Database Systems</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>14</id>
+                    <creditRating>2</creditRating>
+                    <name>Numerical Methods</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>20</id>
+                <email>cyan@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Ethan</firstName>
+                <lastName>Cyan</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>cyan</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>3</id>
+                    <creditRating>3</creditRating>
+                    <name>Introduction to Algorithms</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>7</id>
+                    <creditRating>5</creditRating>
+                    <name>Mobile Applications</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>13</id>
+                    <creditRating>1</creditRating>
+                    <name>Linear Algebra</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>21</id>
+                <email>pink@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Emma</firstName>
+                <lastName>Pink</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>pink</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>3</id>
+                    <creditRating>3</creditRating>
+                    <name>Introduction to Algorithms</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>7</id>
+                    <creditRating>5</creditRating>
+                    <name>Mobile Applications</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>14</id>
+                    <creditRating>2</creditRating>
+                    <name>Numerical Methods</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>22</id>
+                <email>red@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Sophia</firstName>
+                <lastName>Red</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>red</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>8</id>
+                    <creditRating>6</creditRating>
+                    <name>Software Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>10</id>
+                    <creditRating>3</creditRating>
+                    <name>Database Systems</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>13</id>
+                    <creditRating>1</creditRating>
+                    <name>Linear Algebra</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>23</id>
+                <email>yellow@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Isabella</firstName>
+                <lastName>Yellow</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>yellow</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>8</id>
+                    <creditRating>6</creditRating>
+                    <name>Software Engineering</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>24</id>
+                <email>orange@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Mia</firstName>
+                <lastName>Orange</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>orange</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>9</id>
+                    <creditRating>3</creditRating>
+                    <name>Fundamentals of Computer Networks</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>25</id>
+                <email>purple@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Charlotte</firstName>
+                <lastName>Purple</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>purple</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>9</id>
+                    <creditRating>3</creditRating>
+                    <name>Fundamentals of Computer Networks</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>11</id>
+                    <creditRating>1</creditRating>
+                    <name>Programming Techniques</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <subject>
+                <id>1</id>
+                <creditRating>4</creditRating>
+                <name>Programming in Java</name>
+            </subject>
+            <teacher>
+                <id>27</id>
+                <email>strict@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Peter</firstName>
+                <lastName>Strict</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>strict</username>
+                <listOfTaughtSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>8</id>
+                    <creditRating>6</creditRating>
+                    <name>Software Engineering</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>12</id>
+                    <creditRating>2</creditRating>
+                    <name>Operating Systems</name>
+                </listOfTaughtSubjects>
+            </teacher>
+        </examinationDate>
+        <examinationDate>
+            <id>34</id>
+            <dateOfTest>2018-04-11T13:04:38+02:00</dateOfTest>
+            <maxParticipants>10</maxParticipants>
+            <participants>
+                <id>16</id>
+                <email>maroon@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>William</firstName>
+                <lastName>Maroon</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>maroon</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>18</id>
+                <email>green@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Benjamin</firstName>
+                <lastName>Green</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>green</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>19</id>
+                <email>gray@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Michael</firstName>
+                <lastName>Gray</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>gray</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>10</id>
+                    <creditRating>3</creditRating>
+                    <name>Database Systems</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>14</id>
+                    <creditRating>2</creditRating>
+                    <name>Numerical Methods</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>20</id>
+                <email>cyan@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Ethan</firstName>
+                <lastName>Cyan</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>cyan</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>3</id>
+                    <creditRating>3</creditRating>
+                    <name>Introduction to Algorithms</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>7</id>
+                    <creditRating>5</creditRating>
+                    <name>Mobile Applications</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>13</id>
+                    <creditRating>1</creditRating>
+                    <name>Linear Algebra</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>22</id>
+                <email>red@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Sophia</firstName>
+                <lastName>Red</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>red</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>8</id>
+                    <creditRating>6</creditRating>
+                    <name>Software Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>10</id>
+                    <creditRating>3</creditRating>
+                    <name>Database Systems</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>13</id>
+                    <creditRating>1</creditRating>
+                    <name>Linear Algebra</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>23</id>
+                <email>yellow@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Isabella</firstName>
+                <lastName>Yellow</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>yellow</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>8</id>
+                    <creditRating>6</creditRating>
+                    <name>Software Engineering</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>24</id>
+                <email>orange@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Mia</firstName>
+                <lastName>Orange</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>orange</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>9</id>
+                    <creditRating>3</creditRating>
+                    <name>Fundamentals of Computer Networks</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>25</id>
+                <email>purple@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Charlotte</firstName>
+                <lastName>Purple</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>purple</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>9</id>
+                    <creditRating>3</creditRating>
+                    <name>Fundamentals of Computer Networks</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>11</id>
+                    <creditRating>1</creditRating>
+                    <name>Programming Techniques</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <subject>
+                <id>2</id>
+                <creditRating>5</creditRating>
+                <name>Computation Structures</name>
+            </subject>
+            <teacher>
+                <id>32</id>
+                <email>easyrider@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Julia</firstName>
+                <lastName>Easyrider</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>easyrider</username>
+                <listOfTaughtSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfTaughtSubjects>
+            </teacher>
+        </examinationDate>
+        <examinationDate>
+            <id>35</id>
+            <dateOfTest>2018-04-11T13:04:38+02:00</dateOfTest>
+            <maxParticipants>10</maxParticipants>
+            <participants>
+                <id>20</id>
+                <email>cyan@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Ethan</firstName>
+                <lastName>Cyan</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>cyan</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>3</id>
+                    <creditRating>3</creditRating>
+                    <name>Introduction to Algorithms</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>7</id>
+                    <creditRating>5</creditRating>
+                    <name>Mobile Applications</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>13</id>
+                    <creditRating>1</creditRating>
+                    <name>Linear Algebra</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>21</id>
+                <email>pink@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Emma</firstName>
+                <lastName>Pink</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>pink</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>3</id>
+                    <creditRating>3</creditRating>
+                    <name>Introduction to Algorithms</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>7</id>
+                    <creditRating>5</creditRating>
+                    <name>Mobile Applications</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>14</id>
+                    <creditRating>2</creditRating>
+                    <name>Numerical Methods</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <subject>
+                <id>3</id>
+                <creditRating>3</creditRating>
+                <name>Introduction to Algorithms</name>
+            </subject>
+            <teacher>
+                <id>30</id>
+                <email>keen@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Olivia</firstName>
+                <lastName>Keen</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>keen</username>
+                <listOfTaughtSubjects>
+                    <id>3</id>
+                    <creditRating>3</creditRating>
+                    <name>Introduction to Algorithms</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>7</id>
+                    <creditRating>5</creditRating>
+                    <name>Mobile Applications</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>9</id>
+                    <creditRating>3</creditRating>
+                    <name>Fundamentals of Computer Networks</name>
+                </listOfTaughtSubjects>
+            </teacher>
+        </examinationDate>
+        <examinationDate>
+            <id>36</id>
+            <dateOfTest>2018-04-11T13:04:38+02:00</dateOfTest>
+            <maxParticipants>10</maxParticipants>
+            <participants>
+                <id>18</id>
+                <email>green@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Benjamin</firstName>
+                <lastName>Green</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>green</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>23</id>
+                <email>yellow@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Isabella</firstName>
+                <lastName>Yellow</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>yellow</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>8</id>
+                    <creditRating>6</creditRating>
+                    <name>Software Engineering</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>24</id>
+                <email>orange@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Mia</firstName>
+                <lastName>Orange</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>orange</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>9</id>
+                    <creditRating>3</creditRating>
+                    <name>Fundamentals of Computer Networks</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>25</id>
+                <email>purple@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Charlotte</firstName>
+                <lastName>Purple</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>purple</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>9</id>
+                    <creditRating>3</creditRating>
+                    <name>Fundamentals of Computer Networks</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>11</id>
+                    <creditRating>1</creditRating>
+                    <name>Programming Techniques</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <subject>
+                <id>4</id>
+                <creditRating>6</creditRating>
+                <name>Computer System Engineering</name>
+            </subject>
+            <teacher>
+                <id>31</id>
+                <email>pedant@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Alice</firstName>
+                <lastName>Pedant</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>pedant</username>
+                <listOfTaughtSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>10</id>
+                    <creditRating>3</creditRating>
+                    <name>Database Systems</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>11</id>
+                    <creditRating>1</creditRating>
+                    <name>Programming Techniques</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>12</id>
+                    <creditRating>2</creditRating>
+                    <name>Operating Systems</name>
+                </listOfTaughtSubjects>
+            </teacher>
+        </examinationDate>
+        <examinationDate>
+            <id>37</id>
+            <dateOfTest>2018-04-11T13:04:38+02:00</dateOfTest>
+            <maxParticipants>10</maxParticipants>
+            <participants>
+                <id>21</id>
+                <email>pink@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Emma</firstName>
+                <lastName>Pink</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>pink</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>3</id>
+                    <creditRating>3</creditRating>
+                    <name>Introduction to Algorithms</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>7</id>
+                    <creditRating>5</creditRating>
+                    <name>Mobile Applications</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>14</id>
+                    <creditRating>2</creditRating>
+                    <name>Numerical Methods</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>22</id>
+                <email>red@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Sophia</firstName>
+                <lastName>Red</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>red</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>8</id>
+                    <creditRating>6</creditRating>
+                    <name>Software Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>10</id>
+                    <creditRating>3</creditRating>
+                    <name>Database Systems</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>13</id>
+                    <creditRating>1</creditRating>
+                    <name>Linear Algebra</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>23</id>
+                <email>yellow@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Isabella</firstName>
+                <lastName>Yellow</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>yellow</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>8</id>
+                    <creditRating>6</creditRating>
+                    <name>Software Engineering</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>24</id>
+                <email>orange@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Mia</firstName>
+                <lastName>Orange</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>orange</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>9</id>
+                    <creditRating>3</creditRating>
+                    <name>Fundamentals of Computer Networks</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <subject>
+                <id>5</id>
+                <creditRating>5</creditRating>
+                <name>Software Quality Assurance</name>
+            </subject>
+            <teacher>
+                <id>27</id>
+                <email>strict@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Peter</firstName>
+                <lastName>Strict</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>strict</username>
+                <listOfTaughtSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>8</id>
+                    <creditRating>6</creditRating>
+                    <name>Software Engineering</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>12</id>
+                    <creditRating>2</creditRating>
+                    <name>Operating Systems</name>
+                </listOfTaughtSubjects>
+            </teacher>
+        </examinationDate>
+        <examinationDate>
+            <id>38</id>
+            <dateOfTest>2018-04-11T13:04:38+02:00</dateOfTest>
+            <maxParticipants>10</maxParticipants>
+            <participants>
+                <id>18</id>
+                <email>green@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Benjamin</firstName>
+                <lastName>Green</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>green</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>19</id>
+                <email>gray@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Michael</firstName>
+                <lastName>Gray</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>gray</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>10</id>
+                    <creditRating>3</creditRating>
+                    <name>Database Systems</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>14</id>
+                    <creditRating>2</creditRating>
+                    <name>Numerical Methods</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>20</id>
+                <email>cyan@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Ethan</firstName>
+                <lastName>Cyan</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>cyan</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>3</id>
+                    <creditRating>3</creditRating>
+                    <name>Introduction to Algorithms</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>7</id>
+                    <creditRating>5</creditRating>
+                    <name>Mobile Applications</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>13</id>
+                    <creditRating>1</creditRating>
+                    <name>Linear Algebra</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <subject>
+                <id>6</id>
+                <creditRating>4</creditRating>
+                <name>Web Programming</name>
+            </subject>
+            <teacher>
+                <id>30</id>
+                <email>keen@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Olivia</firstName>
+                <lastName>Keen</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>keen</username>
+                <listOfTaughtSubjects>
+                    <id>3</id>
+                    <creditRating>3</creditRating>
+                    <name>Introduction to Algorithms</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>7</id>
+                    <creditRating>5</creditRating>
+                    <name>Mobile Applications</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>9</id>
+                    <creditRating>3</creditRating>
+                    <name>Fundamentals of Computer Networks</name>
+                </listOfTaughtSubjects>
+            </teacher>
+        </examinationDate>
+        <examinationDate>
+            <id>39</id>
+            <dateOfTest>2018-04-11T13:04:38+02:00</dateOfTest>
+            <maxParticipants>10</maxParticipants>
+            <participants>
+                <id>21</id>
+                <email>pink@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Emma</firstName>
+                <lastName>Pink</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>pink</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>3</id>
+                    <creditRating>3</creditRating>
+                    <name>Introduction to Algorithms</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>7</id>
+                    <creditRating>5</creditRating>
+                    <name>Mobile Applications</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>14</id>
+                    <creditRating>2</creditRating>
+                    <name>Numerical Methods</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <subject>
+                <id>7</id>
+                <creditRating>5</creditRating>
+                <name>Mobile Applications</name>
+            </subject>
+            <teacher>
+                <id>30</id>
+                <email>keen@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Olivia</firstName>
+                <lastName>Keen</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>keen</username>
+                <listOfTaughtSubjects>
+                    <id>3</id>
+                    <creditRating>3</creditRating>
+                    <name>Introduction to Algorithms</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>7</id>
+                    <creditRating>5</creditRating>
+                    <name>Mobile Applications</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>9</id>
+                    <creditRating>3</creditRating>
+                    <name>Fundamentals of Computer Networks</name>
+                </listOfTaughtSubjects>
+            </teacher>
+        </examinationDate>
+        <examinationDate>
+            <id>40</id>
+            <dateOfTest>2018-04-11T13:04:38+02:00</dateOfTest>
+            <maxParticipants>10</maxParticipants>
+            <subject>
+                <id>8</id>
+                <creditRating>6</creditRating>
+                <name>Software Engineering</name>
+            </subject>
+            <teacher>
+                <id>27</id>
+                <email>strict@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Peter</firstName>
+                <lastName>Strict</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>strict</username>
+                <listOfTaughtSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>8</id>
+                    <creditRating>6</creditRating>
+                    <name>Software Engineering</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>12</id>
+                    <creditRating>2</creditRating>
+                    <name>Operating Systems</name>
+                </listOfTaughtSubjects>
+            </teacher>
+        </examinationDate>
+        <examinationDate>
+            <id>41</id>
+            <dateOfTest>2018-04-11T13:04:38+02:00</dateOfTest>
+            <maxParticipants>10</maxParticipants>
+            <participants>
+                <id>24</id>
+                <email>orange@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Mia</firstName>
+                <lastName>Orange</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>orange</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>9</id>
+                    <creditRating>3</creditRating>
+                    <name>Fundamentals of Computer Networks</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>25</id>
+                <email>purple@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Charlotte</firstName>
+                <lastName>Purple</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>purple</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>9</id>
+                    <creditRating>3</creditRating>
+                    <name>Fundamentals of Computer Networks</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>11</id>
+                    <creditRating>1</creditRating>
+                    <name>Programming Techniques</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <subject>
+                <id>9</id>
+                <creditRating>3</creditRating>
+                <name>Fundamentals of Computer Networks</name>
+            </subject>
+            <teacher>
+                <id>30</id>
+                <email>keen@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Olivia</firstName>
+                <lastName>Keen</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>keen</username>
+                <listOfTaughtSubjects>
+                    <id>3</id>
+                    <creditRating>3</creditRating>
+                    <name>Introduction to Algorithms</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>7</id>
+                    <creditRating>5</creditRating>
+                    <name>Mobile Applications</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>9</id>
+                    <creditRating>3</creditRating>
+                    <name>Fundamentals of Computer Networks</name>
+                </listOfTaughtSubjects>
+            </teacher>
+        </examinationDate>
+        <examinationDate>
+            <id>42</id>
+            <dateOfTest>2018-04-11T13:04:38+02:00</dateOfTest>
+            <maxParticipants>10</maxParticipants>
+            <participants>
+                <id>19</id>
+                <email>gray@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Michael</firstName>
+                <lastName>Gray</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>gray</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>10</id>
+                    <creditRating>3</creditRating>
+                    <name>Database Systems</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>14</id>
+                    <creditRating>2</creditRating>
+                    <name>Numerical Methods</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>22</id>
+                <email>red@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Sophia</firstName>
+                <lastName>Red</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>red</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>8</id>
+                    <creditRating>6</creditRating>
+                    <name>Software Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>10</id>
+                    <creditRating>3</creditRating>
+                    <name>Database Systems</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>13</id>
+                    <creditRating>1</creditRating>
+                    <name>Linear Algebra</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <subject>
+                <id>10</id>
+                <creditRating>3</creditRating>
+                <name>Database Systems</name>
+            </subject>
+            <teacher>
+                <id>31</id>
+                <email>pedant@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Alice</firstName>
+                <lastName>Pedant</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>pedant</username>
+                <listOfTaughtSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>10</id>
+                    <creditRating>3</creditRating>
+                    <name>Database Systems</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>11</id>
+                    <creditRating>1</creditRating>
+                    <name>Programming Techniques</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>12</id>
+                    <creditRating>2</creditRating>
+                    <name>Operating Systems</name>
+                </listOfTaughtSubjects>
+            </teacher>
+        </examinationDate>
+        <examinationDate>
+            <id>43</id>
+            <dateOfTest>2018-04-11T13:04:38+02:00</dateOfTest>
+            <maxParticipants>10</maxParticipants>
+            <subject>
+                <id>11</id>
+                <creditRating>1</creditRating>
+                <name>Programming Techniques</name>
+            </subject>
+            <teacher>
+                <id>31</id>
+                <email>pedant@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Alice</firstName>
+                <lastName>Pedant</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>pedant</username>
+                <listOfTaughtSubjects>
+                    <id>4</id>
+                    <creditRating>6</creditRating>
+                    <name>Computer System Engineering</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>10</id>
+                    <creditRating>3</creditRating>
+                    <name>Database Systems</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>11</id>
+                    <creditRating>1</creditRating>
+                    <name>Programming Techniques</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>12</id>
+                    <creditRating>2</creditRating>
+                    <name>Operating Systems</name>
+                </listOfTaughtSubjects>
+            </teacher>
+        </examinationDate>
+        <examinationDate>
+            <id>44</id>
+            <dateOfTest>2018-04-11T13:04:38+02:00</dateOfTest>
+            <maxParticipants>10</maxParticipants>
+            <subject>
+                <id>12</id>
+                <creditRating>2</creditRating>
+                <name>Operating Systems</name>
+            </subject>
+            <teacher>
+                <id>27</id>
+                <email>strict@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Peter</firstName>
+                <lastName>Strict</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>strict</username>
+                <listOfTaughtSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>8</id>
+                    <creditRating>6</creditRating>
+                    <name>Software Engineering</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>12</id>
+                    <creditRating>2</creditRating>
+                    <name>Operating Systems</name>
+                </listOfTaughtSubjects>
+            </teacher>
+        </examinationDate>
+        <examinationDate>
+            <id>45</id>
+            <dateOfTest>2018-04-11T13:04:38+02:00</dateOfTest>
+            <maxParticipants>10</maxParticipants>
+            <participants>
+                <id>20</id>
+                <email>cyan@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Ethan</firstName>
+                <lastName>Cyan</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>cyan</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>3</id>
+                    <creditRating>3</creditRating>
+                    <name>Introduction to Algorithms</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>7</id>
+                    <creditRating>5</creditRating>
+                    <name>Mobile Applications</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>13</id>
+                    <creditRating>1</creditRating>
+                    <name>Linear Algebra</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>22</id>
+                <email>red@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Sophia</firstName>
+                <lastName>Red</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>red</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>8</id>
+                    <creditRating>6</creditRating>
+                    <name>Software Engineering</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>10</id>
+                    <creditRating>3</creditRating>
+                    <name>Database Systems</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>13</id>
+                    <creditRating>1</creditRating>
+                    <name>Linear Algebra</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <subject>
+                <id>13</id>
+                <creditRating>1</creditRating>
+                <name>Linear Algebra</name>
+            </subject>
+            <teacher>
+                <id>29</id>
+                <email>scatterbrained@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Thomas</firstName>
+                <lastName>Scatterbrained</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>scatterbrained</username>
+                <listOfTaughtSubjects>
+                    <id>13</id>
+                    <creditRating>1</creditRating>
+                    <name>Linear Algebra</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>14</id>
+                    <creditRating>2</creditRating>
+                    <name>Numerical Methods</name>
+                </listOfTaughtSubjects>
+            </teacher>
+        </examinationDate>
+        <examinationDate>
+            <id>46</id>
+            <dateOfTest>2018-04-11T13:04:38+02:00</dateOfTest>
+            <maxParticipants>10</maxParticipants>
+            <participants>
+                <id>19</id>
+                <email>gray@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Michael</firstName>
+                <lastName>Gray</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>gray</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>2</id>
+                    <creditRating>5</creditRating>
+                    <name>Computation Structures</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>6</id>
+                    <creditRating>4</creditRating>
+                    <name>Web Programming</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>10</id>
+                    <creditRating>3</creditRating>
+                    <name>Database Systems</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>14</id>
+                    <creditRating>2</creditRating>
+                    <name>Numerical Methods</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <participants>
+                <id>21</id>
+                <email>pink@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Emma</firstName>
+                <lastName>Pink</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>pink</username>
+                <listOfLearnedSubjects>
+                    <id>1</id>
+                    <creditRating>4</creditRating>
+                    <name>Programming in Java</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>3</id>
+                    <creditRating>3</creditRating>
+                    <name>Introduction to Algorithms</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>5</id>
+                    <creditRating>5</creditRating>
+                    <name>Software Quality Assurance</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>7</id>
+                    <creditRating>5</creditRating>
+                    <name>Mobile Applications</name>
+                </listOfLearnedSubjects>
+                <listOfLearnedSubjects>
+                    <id>14</id>
+                    <creditRating>2</creditRating>
+                    <name>Numerical Methods</name>
+                </listOfLearnedSubjects>
+            </participants>
+            <subject>
+                <id>14</id>
+                <creditRating>2</creditRating>
+                <name>Numerical Methods</name>
+            </subject>
+            <teacher>
+                <id>29</id>
+                <email>scatterbrained@mail.edu</email>
+                <enabled>1</enabled>
+                <firstName>Thomas</firstName>
+                <lastName>Scatterbrained</lastName>
+                <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+                <username>scatterbrained</username>
+                <listOfTaughtSubjects>
+                    <id>13</id>
+                    <creditRating>1</creditRating>
+                    <name>Linear Algebra</name>
+                </listOfTaughtSubjects>
+                <listOfTaughtSubjects>
+                    <id>14</id>
+                    <creditRating>2</creditRating>
+                    <name>Numerical Methods</name>
+                </listOfTaughtSubjects>
+            </teacher>
+        </examinationDate>
+        <subject>
+            <id>1</id>
+            <creditRating>4</creditRating>
+            <name>Programming in Java</name>
+        </subject>
+        <subject>
+            <id>2</id>
+            <creditRating>5</creditRating>
+            <name>Computation Structures</name>
+        </subject>
+        <subject>
+            <id>3</id>
+            <creditRating>3</creditRating>
+            <name>Introduction to Algorithms</name>
+        </subject>
+        <subject>
+            <id>4</id>
+            <creditRating>6</creditRating>
+            <name>Computer System Engineering</name>
+        </subject>
+        <subject>
+            <id>5</id>
+            <creditRating>5</creditRating>
+            <name>Software Quality Assurance</name>
+        </subject>
+        <subject>
+            <id>6</id>
+            <creditRating>4</creditRating>
+            <name>Web Programming</name>
+        </subject>
+        <subject>
+            <id>7</id>
+            <creditRating>5</creditRating>
+            <name>Mobile Applications</name>
+        </subject>
+        <subject>
+            <id>8</id>
+            <creditRating>6</creditRating>
+            <name>Software Engineering</name>
+        </subject>
+        <subject>
+            <id>9</id>
+            <creditRating>3</creditRating>
+            <name>Fundamentals of Computer Networks</name>
+        </subject>
+        <subject>
+            <id>10</id>
+            <creditRating>3</creditRating>
+            <name>Database Systems</name>
+        </subject>
+        <subject>
+            <id>11</id>
+            <creditRating>1</creditRating>
+            <name>Programming Techniques</name>
+        </subject>
+        <subject>
+            <id>12</id>
+            <creditRating>2</creditRating>
+            <name>Operating Systems</name>
+        </subject>
+        <subject>
+            <id>13</id>
+            <creditRating>1</creditRating>
+            <name>Linear Algebra</name>
+        </subject>
+        <subject>
+            <id>14</id>
+            <creditRating>2</creditRating>
+            <name>Numerical Methods</name>
+        </subject>
+        <gradeType>
+            <id>47</id>
+            <name>A</name>
+            <value>1.0</value>
+        </gradeType>
+        <gradeType>
+            <id>48</id>
+            <name>B</name>
+            <value>1.5</value>
+        </gradeType>
+        <gradeType>
+            <id>49</id>
+            <name>C</name>
+            <value>2.0</value>
+        </gradeType>
+        <gradeType>
+            <id>50</id>
+            <name>D</name>
+            <value>2.5</value>
+        </gradeType>
+        <gradeType>
+            <id>51</id>
+            <name>E</name>
+            <value>3.0</value>
+        </gradeType>
+        <gradeType>
+            <id>52</id>
+            <name>F</name>
+            <value>4.0</value>
+        </gradeType>
+        <student>
+            <id>15</id>
+            <email>brown@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Noah</firstName>
+            <lastName>Brown</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>brown</username>
+            <listOfLearnedSubjects>
+                <id>1</id>
+                <creditRating>4</creditRating>
+                <name>Programming in Java</name>
+            </listOfLearnedSubjects>
+        </student>
+        <student>
+            <id>16</id>
+            <email>maroon@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>William</firstName>
+            <lastName>Maroon</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>maroon</username>
+            <listOfLearnedSubjects>
+                <id>1</id>
+                <creditRating>4</creditRating>
+                <name>Programming in Java</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>2</id>
+                <creditRating>5</creditRating>
+                <name>Computation Structures</name>
+            </listOfLearnedSubjects>
+        </student>
+        <student>
+            <id>17</id>
+            <email>blue@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>James</firstName>
+            <lastName>Blue</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>blue</username>
+            <listOfLearnedSubjects>
+                <id>1</id>
+                <creditRating>4</creditRating>
+                <name>Programming in Java</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>2</id>
+                <creditRating>5</creditRating>
+                <name>Computation Structures</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>4</id>
+                <creditRating>6</creditRating>
+                <name>Computer System Engineering</name>
+            </listOfLearnedSubjects>
+        </student>
+        <student>
+            <id>18</id>
+            <email>green@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Benjamin</firstName>
+            <lastName>Green</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>green</username>
+            <listOfLearnedSubjects>
+                <id>1</id>
+                <creditRating>4</creditRating>
+                <name>Programming in Java</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>2</id>
+                <creditRating>5</creditRating>
+                <name>Computation Structures</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>4</id>
+                <creditRating>6</creditRating>
+                <name>Computer System Engineering</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>6</id>
+                <creditRating>4</creditRating>
+                <name>Web Programming</name>
+            </listOfLearnedSubjects>
+        </student>
+        <student>
+            <id>19</id>
+            <email>gray@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Michael</firstName>
+            <lastName>Gray</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>gray</username>
+            <listOfLearnedSubjects>
+                <id>1</id>
+                <creditRating>4</creditRating>
+                <name>Programming in Java</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>2</id>
+                <creditRating>5</creditRating>
+                <name>Computation Structures</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>6</id>
+                <creditRating>4</creditRating>
+                <name>Web Programming</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>10</id>
+                <creditRating>3</creditRating>
+                <name>Database Systems</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>14</id>
+                <creditRating>2</creditRating>
+                <name>Numerical Methods</name>
+            </listOfLearnedSubjects>
+        </student>
+        <student>
+            <id>20</id>
+            <email>cyan@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Ethan</firstName>
+            <lastName>Cyan</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>cyan</username>
+            <listOfLearnedSubjects>
+                <id>1</id>
+                <creditRating>4</creditRating>
+                <name>Programming in Java</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>2</id>
+                <creditRating>5</creditRating>
+                <name>Computation Structures</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>3</id>
+                <creditRating>3</creditRating>
+                <name>Introduction to Algorithms</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>6</id>
+                <creditRating>4</creditRating>
+                <name>Web Programming</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>7</id>
+                <creditRating>5</creditRating>
+                <name>Mobile Applications</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>13</id>
+                <creditRating>1</creditRating>
+                <name>Linear Algebra</name>
+            </listOfLearnedSubjects>
+        </student>
+        <student>
+            <id>21</id>
+            <email>pink@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Emma</firstName>
+            <lastName>Pink</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>pink</username>
+            <listOfLearnedSubjects>
+                <id>1</id>
+                <creditRating>4</creditRating>
+                <name>Programming in Java</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>3</id>
+                <creditRating>3</creditRating>
+                <name>Introduction to Algorithms</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>5</id>
+                <creditRating>5</creditRating>
+                <name>Software Quality Assurance</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>7</id>
+                <creditRating>5</creditRating>
+                <name>Mobile Applications</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>14</id>
+                <creditRating>2</creditRating>
+                <name>Numerical Methods</name>
+            </listOfLearnedSubjects>
+        </student>
+        <student>
+            <id>22</id>
+            <email>red@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Sophia</firstName>
+            <lastName>Red</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>red</username>
+            <listOfLearnedSubjects>
+                <id>1</id>
+                <creditRating>4</creditRating>
+                <name>Programming in Java</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>2</id>
+                <creditRating>5</creditRating>
+                <name>Computation Structures</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>5</id>
+                <creditRating>5</creditRating>
+                <name>Software Quality Assurance</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>8</id>
+                <creditRating>6</creditRating>
+                <name>Software Engineering</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>10</id>
+                <creditRating>3</creditRating>
+                <name>Database Systems</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>13</id>
+                <creditRating>1</creditRating>
+                <name>Linear Algebra</name>
+            </listOfLearnedSubjects>
+        </student>
+        <student>
+            <id>23</id>
+            <email>yellow@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Isabella</firstName>
+            <lastName>Yellow</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>yellow</username>
+            <listOfLearnedSubjects>
+                <id>1</id>
+                <creditRating>4</creditRating>
+                <name>Programming in Java</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>2</id>
+                <creditRating>5</creditRating>
+                <name>Computation Structures</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>4</id>
+                <creditRating>6</creditRating>
+                <name>Computer System Engineering</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>5</id>
+                <creditRating>5</creditRating>
+                <name>Software Quality Assurance</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>8</id>
+                <creditRating>6</creditRating>
+                <name>Software Engineering</name>
+            </listOfLearnedSubjects>
+        </student>
+        <student>
+            <id>24</id>
+            <email>orange@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Mia</firstName>
+            <lastName>Orange</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>orange</username>
+            <listOfLearnedSubjects>
+                <id>1</id>
+                <creditRating>4</creditRating>
+                <name>Programming in Java</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>2</id>
+                <creditRating>5</creditRating>
+                <name>Computation Structures</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>4</id>
+                <creditRating>6</creditRating>
+                <name>Computer System Engineering</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>5</id>
+                <creditRating>5</creditRating>
+                <name>Software Quality Assurance</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>9</id>
+                <creditRating>3</creditRating>
+                <name>Fundamentals of Computer Networks</name>
+            </listOfLearnedSubjects>
+        </student>
+        <student>
+            <id>25</id>
+            <email>purple@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Charlotte</firstName>
+            <lastName>Purple</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>purple</username>
+            <listOfLearnedSubjects>
+                <id>1</id>
+                <creditRating>4</creditRating>
+                <name>Programming in Java</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>2</id>
+                <creditRating>5</creditRating>
+                <name>Computation Structures</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>4</id>
+                <creditRating>6</creditRating>
+                <name>Computer System Engineering</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>9</id>
+                <creditRating>3</creditRating>
+                <name>Fundamentals of Computer Networks</name>
+            </listOfLearnedSubjects>
+            <listOfLearnedSubjects>
+                <id>11</id>
+                <creditRating>1</creditRating>
+                <name>Programming Techniques</name>
+            </listOfLearnedSubjects>
+        </student>
+        <student>
+            <id>26</id>
+            <email>magenta@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Emily</firstName>
+            <lastName>Magenta</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>magenta</username>
+        </student>
+        <teacher>
+            <id>27</id>
+            <email>strict@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Peter</firstName>
+            <lastName>Strict</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>strict</username>
+            <listOfTaughtSubjects>
+                <id>1</id>
+                <creditRating>4</creditRating>
+                <name>Programming in Java</name>
+            </listOfTaughtSubjects>
+            <listOfTaughtSubjects>
+                <id>5</id>
+                <creditRating>5</creditRating>
+                <name>Software Quality Assurance</name>
+            </listOfTaughtSubjects>
+            <listOfTaughtSubjects>
+                <id>8</id>
+                <creditRating>6</creditRating>
+                <name>Software Engineering</name>
+            </listOfTaughtSubjects>
+            <listOfTaughtSubjects>
+                <id>12</id>
+                <creditRating>2</creditRating>
+                <name>Operating Systems</name>
+            </listOfTaughtSubjects>
+        </teacher>
+        <teacher>
+            <id>28</id>
+            <email>lazy@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>John</firstName>
+            <lastName>Lazy</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>lazy</username>
+        </teacher>
+        <teacher>
+            <id>29</id>
+            <email>scatterbrained@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Thomas</firstName>
+            <lastName>Scatterbrained</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>scatterbrained</username>
+            <listOfTaughtSubjects>
+                <id>13</id>
+                <creditRating>1</creditRating>
+                <name>Linear Algebra</name>
+            </listOfTaughtSubjects>
+            <listOfTaughtSubjects>
+                <id>14</id>
+                <creditRating>2</creditRating>
+                <name>Numerical Methods</name>
+            </listOfTaughtSubjects>
+        </teacher>
+        <teacher>
+            <id>30</id>
+            <email>keen@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Olivia</firstName>
+            <lastName>Keen</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>keen</username>
+            <listOfTaughtSubjects>
+                <id>3</id>
+                <creditRating>3</creditRating>
+                <name>Introduction to Algorithms</name>
+            </listOfTaughtSubjects>
+            <listOfTaughtSubjects>
+                <id>6</id>
+                <creditRating>4</creditRating>
+                <name>Web Programming</name>
+            </listOfTaughtSubjects>
+            <listOfTaughtSubjects>
+                <id>7</id>
+                <creditRating>5</creditRating>
+                <name>Mobile Applications</name>
+            </listOfTaughtSubjects>
+            <listOfTaughtSubjects>
+                <id>9</id>
+                <creditRating>3</creditRating>
+                <name>Fundamentals of Computer Networks</name>
+            </listOfTaughtSubjects>
+        </teacher>
+        <teacher>
+            <id>31</id>
+            <email>pedant@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Alice</firstName>
+            <lastName>Pedant</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>pedant</username>
+            <listOfTaughtSubjects>
+                <id>4</id>
+                <creditRating>6</creditRating>
+                <name>Computer System Engineering</name>
+            </listOfTaughtSubjects>
+            <listOfTaughtSubjects>
+                <id>10</id>
+                <creditRating>3</creditRating>
+                <name>Database Systems</name>
+            </listOfTaughtSubjects>
+            <listOfTaughtSubjects>
+                <id>11</id>
+                <creditRating>1</creditRating>
+                <name>Programming Techniques</name>
+            </listOfTaughtSubjects>
+            <listOfTaughtSubjects>
+                <id>12</id>
+                <creditRating>2</creditRating>
+                <name>Operating Systems</name>
+            </listOfTaughtSubjects>
+        </teacher>
+        <teacher>
+            <id>32</id>
+            <email>easyrider@mail.edu</email>
+            <enabled>1</enabled>
+            <firstName>Julia</firstName>
+            <lastName>Easyrider</lastName>
+            <password>$2a$10$f0JA3HG9go8fH4IpqEjZ0.9jDKKhwG0roP8wRXvWcVAqtj71YIrCK</password>
+            <username>easyrider</username>
+            <listOfTaughtSubjects>
+                <id>2</id>
+                <creditRating>5</creditRating>
+                <name>Computation Structures</name>
+            </listOfTaughtSubjects>
+        </teacher>
+    </entities>
+</dataContainer>

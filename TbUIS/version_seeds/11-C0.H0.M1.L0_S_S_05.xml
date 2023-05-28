@@ -1,0 +1,13 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <bean id="dateUtility" class="cz.zcu.kiv.matyasj.dp.utils.dates.correct.BaseDateUtility"/>
+    <bean id="studentService" class="cz.zcu.kiv.matyasj.dp.service.users.error.E05StudentService"/>
+    <bean id="teacherService" class="cz.zcu.kiv.matyasj.dp.service.users.correct.BaseTeacherService"/>
+    <bean id="gradeTypeDao" class="cz.zcu.kiv.matyasj.dp.dao.jpa.correct.GradeTypeDaoCriteria"/>
+    <bean id="userDao" class="cz.zcu.kiv.matyasj.dp.dao.jpa.correct.UserDaoCriteria"/>
+
+    <bean id="injectVersion" class="java.lang.String">
+        <constructor-arg value="C0.H0.M1.L0_S_S_05"/>
+    </bean>
+</beans>

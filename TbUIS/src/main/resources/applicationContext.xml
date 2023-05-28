@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans
+             http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+             http://www.springframework.org/schema/context
+             http://www.springframework.org/schema/context/spring-context-4.0.xsd
+             http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd"
+>
+
+    <context:annotation-config/>
+    <context:component-scan base-package="cz.zcu.kiv.matyasj.dp.**.*"/>
+    <tx:annotation-driven transaction-manager="transactionManager" />
+
+    <!-- Transaction service for a single EntityManagerFactory (alternative to JTA) -->
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+    </bean>
+    <bean id="xmlDataPorter" class="cz.zcu.kiv.matyasj.dp.utils.dataporter.xml.XMLDataPorter"/>
+    <bean id="jsonDataPorter" class="cz.zcu.kiv.matyasj.dp.utils.dataporter.json.JSONDataPorter"/>
+
+    <!-- Default definition of correct beans. This beans might be overridden in seed.xml -->
+    <bean id="dateUtility" class="cz.zcu.kiv.matyasj.dp.utils.dates.correct.BaseDateUtility"/>
+    <bean id="studentService" class="cz.zcu.kiv.matyasj.dp.service.users.correct.BaseStudentService"/>
+    <bean id="teacherService" class="cz.zcu.kiv.matyasj.dp.service.users.correct.BaseTeacherService"/>
+    <bean id="gradeTypeDao" class="cz.zcu.kiv.matyasj.dp.dao.jpa.correct.GradeTypeDaoCriteria"/>
+    <bean id="userDao" class="cz.zcu.kiv.matyasj.dp.dao.jpa.correct.UserDaoCriteria"/>
+
+    <bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+    <!--<bean id="passwordEncoder" class="cz.zcu.kiv.matyasj.dp.utils.encoders.PasswordEncoderMD5"/>-->
+
+    <!-- Import Seed file -->
+    <import resource="seed.xml"/>
+
+    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean" destroy-method="destroy">
+        <property name="persistenceXmlLocation" value="classpath:/META-INF/persistence.xml"/>
+        <property name="jpaVendorAdapter" ref="hibernateVendorAdapter"/>
+        <property name="packagesToScan" value="cz.zcu.kiv.matyasj.dp.**.domain"/>
+        <property name="persistenceUnitName" value="cz.zcu.kiv.matyasj.dp"/>
+    </bean>
+
+    <bean id="hibernateVendorAdapter" class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
+
+    <!-- Data Source -->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://localhost:3306/uis-web-db?characterEncoding=UTF-8" />
+        <property name="username" value="uis-web" />
+        <property name="password" value="uis" />
+    </bean>
+
+    <!-- Locale Resolver -->
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
+        <property name="defaultLocale" value="en" />
+    </bean>
+
+    <bean id="localeChangeInterceptor" class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+        <property name="paramName" value="locale" />
+    </bean>
+
+    <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping" >
+        <property name="interceptors">
+            <list>
+                <ref bean="localeChangeInterceptor" />
+            </list>
+        </property>
+    </bean>
+
+    <!-- Register the localization.localization -->
+    <bean id="messageSource"
+          class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename" value="localization/localization" />
+    </bean>
+
+    <!-- Multipart resolver -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- one of the properties available; the maximum file size in bytes -->
+        <!-- <property name="maxUploadSize" value="40000000" /> -->
+    </bean>
+
+    <mvc:annotation-driven />
+
+    <!-- MVC resources mapping -->
+    <mvc:resources mapping="css/**" location="classpath:css/" />
+    <mvc:resources mapping="js/**" location="classpath:js/" />
+    <mvc:resources mapping="images/**" location="classpath:images/" />
+    <mvc:resources mapping="WEB-INF/pages/**" location="classpath:WEB-INF/pages" />
+    <!--<mvc:resources mapping="WEB-INF/pages/modules/**" location="classpath*:WEB-INF/pages/modules/" />-->
+</beans>
