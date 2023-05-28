@@ -5,7 +5,7 @@ author: Lukáš Rejnek
 ---
 
 V tomto dokumentu popisuji testovanou aplikaci a testovací
-scénáře v mojí semestrální práci. Semestrální práci jsem vytvářel sám.
+scénáře v mojí semestrální práci. Vytvářel jsem jí sám.
 
 Běžnou praxí v předmětu je otestování vlastního programu z předmětu Programování v Javě. Já ale nemám tuto možnost a tak jsem si na doporučení Miroslava Bureše vybral aplikaci [UIS](https://projects.kiv.zcu.cz/tbuis/web/) - University Information System.
 
@@ -21,7 +21,7 @@ Aplikace se skládá ze tří částí:
 1. Správa  
    - slouží k základní údržbě DB systému a k získání informací o nastavení systému
    - dostupná bez přihlášení
-    - v produkční verzi by přihlášení bylo třeba, zde zjednodušeno pro testování
+   - v produkční verzi by přihlášení bylo třeba, zde zjednodušeno pro testování
 2. Studentská část
 3. Učitelská část
 
@@ -55,48 +55,26 @@ Představuje uživatele, který chce používat UIS jako student vysoké školy.
 
 ![Možnosti studenta](./img/student.png)
 
-__Upozornění:__ Screenshoty ostatních stránek jsou ve složce _screenshots_.
-
 #### Učitel
 Představuje uživatele, který chce používat UIS jako vysokoškolský učitel. Učitel si může zapisovat a odhlašovat vyučované předměty a vytvářet a rušit termíny zkoušek. Učitel může také známkovat studenty účastnící se jím vytvořeného termínu zkoušky.
 
 ![Možnosti učitele](./img/ucitel.png)
 
-__Upozornění:__ Screenshoty ostatních stránek jsou ve složce _screenshots_.  
-
 ### Použité technologie
 UIS je napsaný v Javě pomocí JavaServer Pages a Springu. Dále využívá Apache Tomcat jako webserver, MySQL nebo MariaDB databázi a Hibernate ORM pro komunikaci s databází.
 
 ## Přehled částí aplikace
-Aplikace se skládá ze 3 hlavních částí a mnoha podčástí:
+Aplikace se skládá z následujících částí:
 
+- __PorterService__ - import a export databáze
+- __StudentService__ - provádění studentských požadavků
+- __TeacherService__ - provádění učitelských požadavků
+- __UserService__ - provádění požadavků
+- __RestoreDBService__ - obnovení databáze do počátečního stavu 
 - __DAO (Data Access Objects)__ - zápis a komunikace s databází
-  - ExaminationDateDao, GradeDao, GradeTypeDao, SubjectDao, UserDao
-- __Services__ - provádění požadavků
-  - PorterService
-  - RestoreDBService
-  - StudentService
-  - TeacherService
-  - UserService
 - __Web controllers__ - komunikace s webovou aplikací
-  - Student
-    - ExamDatesController 
-    , RegisterExamDatesController
-    , RegisterSubjectListController
-    , SubjectListController
-  - Teacher
-     - EvaluationTableController, ListOfAllTeachersController
-     , ListOfNotTaughtSubjectController
-     , ListOfTaughtSubjectController
-     , NewExamDateController
-     , NewGradeController
-     , TeachersExamTermsController
-  - ImportExportController
-  - LoginController
-  - OverviewController
-  - RestoreDbController
 
-Další části __annotations__, __config__, __domain__ a __utils__ jsou pomocné.
+Další části __annotations__, __config__, __domain__ a __utils__ jsou určené pro pomocné třídy a funkce.
 
 
 ## Prioritizace částí aplikace
@@ -104,30 +82,18 @@ Požadavky uživatelů jsou znázorněné na use-case diagramu:
 
 ![use case diagram, (https://projects.kiv.zcu.cz/tbuis/web/page/uis)](./img/use-case.png)
 
-Různé use casy jsou pro uživatele samozřejmě různě důležité. Tuto informaci bychom získali rozhovory se zákazníky a budoucími uživateli.  
+Různé use casy jsou pro uživatele samozřejmě různě důležité. Tuto informaci bychom získali rozhovory se zákazníky a budoucími uživateli.
 
-__Vysoká důležitost:__  
+### Tabulka priorit
 
-- UC.01 Přihlášení
-- UC.14 Oznámení nového zkouškového data
-- UC.08 Registrace na novou zkoušku
-- UC.06 Výpis, zápis a odhlášení předmětu
-
-__Střední důležitost:__
-
-- UC.12 Výpis a zrušení zkoušky
-- UC.15 a UC.16 Zapsání a změna známky
-- UC.05 Výpis známek z absolvovaných zkoušek
-- UC.21 Exportování databáze
-
-Ostatní use casy mají nízkou důležitost.
-
-V aplikaci odpovídá každému požadavku přibližně jeden proces.
+![Tabulka je dostupná i jako příloha](./img/priority.png)
 
 ![Tabulka pro určení třídy rizika](./img/tridyRizika.png)
 
 
 ## Test levels
+
+![Tabulka test levels](./img/testLevels.png)
 
 ## Testovací scénáře
 ### Testy vstupů

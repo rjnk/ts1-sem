@@ -1,0 +1,17 @@
+,teacher,subjectId,dayOfTerm,maxParticipants
+1,valid,NEexistující,invalid format,invalid format
+2,null,existující,invalid format,< min
+3,valid,existující,invalid format,>= min & <= max
+4,null,NEexistující,invalid format,> max
+5,null,existující,<= now(),invalid format
+6,valid,NEexistující,<= now(),< min
+7,null,NEexistující,<= now(),>= min & <= max
+8,valid,existující,<= now(),> max
+9,null,NEexistující,> now() & <= now() + 1 rok,invalid format
+10,valid,existující,> now() & <= now() + 1 rok,< min
+11,valid,NEexistující,> now() & <= now() + 1 rok,>= min & <= max
+12,null,NEexistující,> now() & <= now() + 1 rok,> max
+13,null,NEexistující,> now() + 1 rok,invalid format
+14,valid,existující,> now() + 1 rok,< min
+15,valid,existující,> now() + 1 rok,>= min & <= max
+16,valid,existující,> now() + 1 rok,> max

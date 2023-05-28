@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System name="NewExam">
+  <Parameters>
+    <Parameter id="0" name="teacher" type="1">
+      <values>
+        <value>null</value>
+        <value>valid</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="1" name="subjectId" type="1">
+      <values>
+        <value>existující</value>
+        <value>NEexistující</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="3" name="dayOfTerm" type="1">
+      <values>
+        <value>invalid format</value>
+        <value>&lt;= now()</value>
+        <value>&gt; now() &amp; &lt;= now() + 1 rok</value>
+        <value>&gt; now() + 1 rok</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="4" name="maxParticipants" type="1">
+      <values>
+        <value>invalid format</value>
+        <value>&lt; min</value>
+        <value>&gt;= min &amp; &lt;= max</value>
+        <value>&gt; max</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+  </Parameters>
+  <OutputParameters />
+  <Relations />
+  <Constraints />
+  <Testset doi="2">
+    <Testcase TCNo="0">
+      <Value>1</Value>
+      <Value>valid</Value>
+      <Value>NEexistující</Value>
+      <Value>invalid format</Value>
+      <Value>invalid format</Value>
+    </Testcase>
+    <Testcase TCNo="1">
+      <Value>2</Value>
+      <Value>null</Value>
+      <Value>existující</Value>
+      <Value>invalid format</Value>
+      <Value>&lt; min</Value>
+    </Testcase>
+    <Testcase TCNo="2">
+      <Value>3</Value>
+      <Value>valid</Value>
+      <Value>existující</Value>
+      <Value>invalid format</Value>
+      <Value>&gt;= min &amp; &lt;= max</Value>
+    </Testcase>
+    <Testcase TCNo="3">
+      <Value>4</Value>
+      <Value>null</Value>
+      <Value>NEexistující</Value>
+      <Value>invalid format</Value>
+      <Value>&gt; max</Value>
+    </Testcase>
+    <Testcase TCNo="4">
+      <Value>5</Value>
+      <Value>null</Value>
+      <Value>existující</Value>
+      <Value>&lt;= now()</Value>
+      <Value>invalid format</Value>
+    </Testcase>
+    <Testcase TCNo="5">
+      <Value>6</Value>
+      <Value>valid</Value>
+      <Value>NEexistující</Value>
+      <Value>&lt;= now()</Value>
+      <Value>&lt; min</Value>
+    </Testcase>
+    <Testcase TCNo="6">
+      <Value>7</Value>
+      <Value>null</Value>
+      <Value>NEexistující</Value>
+      <Value>&lt;= now()</Value>
+      <Value>&gt;= min &amp; &lt;= max</Value>
+    </Testcase>
+    <Testcase TCNo="7">
+      <Value>8</Value>
+      <Value>valid</Value>
+      <Value>existující</Value>
+      <Value>&lt;= now()</Value>
+      <Value>&gt; max</Value>
+    </Testcase>
+    <Testcase TCNo="8">
+      <Value>9</Value>
+      <Value>null</Value>
+      <Value>NEexistující</Value>
+      <Value>&gt; now() &amp; &lt;= now() + 1 rok</Value>
+      <Value>invalid format</Value>
+    </Testcase>
+    <Testcase TCNo="9">
+      <Value>10</Value>
+      <Value>valid</Value>
+      <Value>existující</Value>
+      <Value>&gt; now() &amp; &lt;= now() + 1 rok</Value>
+      <Value>&lt; min</Value>
+    </Testcase>
+    <Testcase TCNo="10">
+      <Value>11</Value>
+      <Value>valid</Value>
+      <Value>NEexistující</Value>
+      <Value>&gt; now() &amp; &lt;= now() + 1 rok</Value>
+      <Value>&gt;= min &amp; &lt;= max</Value>
+    </Testcase>
+    <Testcase TCNo="11">
+      <Value>12</Value>
+      <Value>null</Value>
+      <Value>NEexistující</Value>
+      <Value>&gt; now() &amp; &lt;= now() + 1 rok</Value>
+      <Value>&gt; max</Value>
+    </Testcase>
+    <Testcase TCNo="12">
+      <Value>13</Value>
+      <Value>null</Value>
+      <Value>NEexistující</Value>
+      <Value>&gt; now() + 1 rok</Value>
+      <Value>invalid format</Value>
+    </Testcase>
+    <Testcase TCNo="13">
+      <Value>14</Value>
+      <Value>valid</Value>
+      <Value>existující</Value>
+      <Value>&gt; now() + 1 rok</Value>
+      <Value>&lt; min</Value>
+    </Testcase>
+    <Testcase TCNo="14">
+      <Value>15</Value>
+      <Value>valid</Value>
+      <Value>existující</Value>
+      <Value>&gt; now() + 1 rok</Value>
+      <Value>&gt;= min &amp; &lt;= max</Value>
+    </Testcase>
+    <Testcase TCNo="15">
+      <Value>16</Value>
+      <Value>valid</Value>
+      <Value>existující</Value>
+      <Value>&gt; now() + 1 rok</Value>
+      <Value>&gt; max</Value>
+    </Testcase>
+  </Testset>
+  <Header>
+    <Value />
+    <Value>teacher</Value>
+    <Value>subjectId</Value>
+    <Value>dayOfTerm</Value>
+    <Value>maxParticipants</Value>
+  </Header>
+  <Stat-Data>
+    <ExecutionTime>0.028</ExecutionTime>
+    <MaxDomainSize>4</MaxDomainSize>
+    <MinDomainSize>2</MinDomainSize>
+    <TotalNoOfCombination>52</TotalNoOfCombination>
+    <TotalNoOfTests>16</TotalNoOfTests>
+    <Algorithm>IPOG</Algorithm>
+  </Stat-Data>
+</System>
+
