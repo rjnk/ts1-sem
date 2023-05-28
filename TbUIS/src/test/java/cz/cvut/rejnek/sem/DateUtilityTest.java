@@ -32,7 +32,7 @@ public class DateUtilityTest {
     }
 
     @Test
-    public void stringToDate_normalDate_string() {
+    public void dateToString_normalDate_string() {
         Calendar cal = Calendar.getInstance();
         cal.set(2020, Calendar.JANUARY, 22, 14, 15,0);
 
@@ -49,14 +49,14 @@ public class DateUtilityTest {
     }
 
     // tento test odhalil bug/feature v produkcni verzi
-    // originalni verze si mesic prepocita
+    // originalni verze si mesic prepocita, tj. 40. mesic je 4. mesic v roce 2027
     @Test
     public void stringToDate_invalidMonth_null() {
         String stringDate = "2023-40-05 10:30";
         assertNull(utility.stringToDate(stringDate));
     }
 
-    // tento test odhalil pad v produkcni verzi
+    // tento test odhalil bug v produkcni verzi
     @Test
     public void stringToDate_hugeNumber_null() {
         String stringDate = "9999-99-99 99:99";

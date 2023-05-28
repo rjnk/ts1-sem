@@ -1,17 +1,11 @@
 package cz.cvut.rejnek.sem;
 
 import cz.zcu.kiv.matyasj.dp.dao.*;
-import cz.zcu.kiv.matyasj.dp.dao.jpa.correct.ExaminationDateDaoCriteria;
-import cz.zcu.kiv.matyasj.dp.dao.jpa.correct.GradeDaoCriteria;
-import cz.zcu.kiv.matyasj.dp.dao.jpa.correct.SubjectDaoCriteria;
-import cz.zcu.kiv.matyasj.dp.dao.jpa.correct.UserDaoCriteria;
 import cz.zcu.kiv.matyasj.dp.domain.university.ExaminationDate;
 import cz.zcu.kiv.matyasj.dp.domain.university.Subject;
 import cz.zcu.kiv.matyasj.dp.domain.users.Student;
 import cz.zcu.kiv.matyasj.dp.domain.users.User;
-import cz.zcu.kiv.matyasj.dp.service.StudentService;
 import cz.zcu.kiv.matyasj.dp.service.users.correct.BaseStudentService;
-import cz.zcu.kiv.matyasj.dp.utils.properties.BasePropertyLoader;
 import cz.zcu.kiv.matyasj.dp.utils.properties.PropertyLoader;
 import org.junit.After;
 import org.junit.Before;
@@ -20,23 +14,13 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.web.WebAppConfiguration;
-
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
 import java.util.Date;
-
 import static junit.framework.Assert.*;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath*:applicationContext.xml")
-public class StudentServiceSetExaminationDateIntegrationTest {
-    /**
-     * Number of milliseconds od day constant
-     */
+public class SetExaminationDateIntegrationTest {
     private static final int DAY = 24 * 60 * 60 * 1000;
 
     @Autowired
@@ -78,11 +62,11 @@ public class StudentServiceSetExaminationDateIntegrationTest {
     public void setExaminationDate_SubjectSetExamDateOk_examSet() {
         var service = new BaseStudentService(subjectDao, userDao, examinationDateDao, gradeDao, gradeTypeDao, propertyLoader);
 
-        assertEquals(0, examinationDateDao.getExaminationTermOfStudentInFuture((Student) student).size());
+        assertEquals(0, examinationDateDao.getExaminationDateOfStudent((Student) student).size());
         assertTrue(service.setExaminationDate(student.getId(), examDate.getId()));
 
-        assertEquals(1, examinationDateDao.getExaminationTermOfStudentInFuture((Student) student).size());
-        assertEquals(examDate.getSubject(), examinationDateDao.getExaminationTermOfStudentInFuture((Student) student).get(0).getSubject());
+        assertEquals(1, examinationDateDao.getExaminationDateOfStudent((Student) student).size());
+        assertEquals(examDate.getSubject(), examinationDateDao.getExaminationDateOfStudent((Student) student).get(0).getSubject());
     }
 
     @Test
@@ -91,6 +75,7 @@ public class StudentServiceSetExaminationDateIntegrationTest {
         service.unsetStudiedSubject(student.getId(), subject.getId());
 
         assertFalse(service.setExaminationDate(student.getId(), examDate.getId()));
+        assertEquals(0, examinationDateDao.getExaminationDateOfStudent((Student) student).size());
     }
 
     @Test
@@ -99,6 +84,7 @@ public class StudentServiceSetExaminationDateIntegrationTest {
 
         assertTrue(service.setExaminationDate(student.getId(), examDate.getId()));
         assertFalse(service.setExaminationDate(student.getId(), examDate.getId()));
+        assertEquals(1, examinationDateDao.getExaminationDateOfStudent((Student) student).size());
     }
 
     @Test
@@ -108,7 +94,7 @@ public class StudentServiceSetExaminationDateIntegrationTest {
         stud2 = userDao.save(stud2);
 
         ((Student) stud2).getListOfLearnedSubjects().add(subject);
-        stud2 = userDao.save(student);
+        stud2 = userDao.save(stud2);
 
         // exam date
         examDate.setMaxParticipants(1);
@@ -117,9 +103,13 @@ public class StudentServiceSetExaminationDateIntegrationTest {
         // service
         var service = new BaseStudentService(subjectDao, userDao, examinationDateDao, gradeDao, gradeTypeDao, propertyLoader);
 
-        // test
+        // test student
         assertTrue(service.setExaminationDate(student.getId(), examDate.getId()));
+        assertEquals(1, examinationDateDao.getExaminationDateOfStudent((Student) student).size());
+
+        // test stud2
         assertFalse(service.setExaminationDate(stud2.getId(), examDate.getId()));
+        assertEquals(0, examinationDateDao.getExaminationDateOfStudent((Student) stud2).size());
     }
 
     @Test
@@ -130,9 +120,11 @@ public class StudentServiceSetExaminationDateIntegrationTest {
         exam2 = examinationDateDao.save(examDate);
 
         var service = new BaseStudentService(subjectDao, userDao, examinationDateDao, gradeDao, gradeTypeDao, propertyLoader);
+
         // assert
         assertTrue(service.setExaminationDate(student.getId(), examDate.getId()));
         assertFalse(service.setExaminationDate(student.getId(), exam2.getId()));
+        assertEquals(1, examinationDateDao.getExaminationDateOfStudent((Student) student).size());
     }
 
     @After
