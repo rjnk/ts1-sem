@@ -1,16 +1,15 @@
 ---
 fontsize: 12px
-title: SEM
+title: TS1 Semestrální práce - UIS
 author: Lukáš Rejnek
 ---
 
-# TS1 Semestrální práce - UIS
 V tomto dokumentu popisuji testovanou aplikaci a testovací
 scénáře v mojí semestrální práci. Semestrální práci jsem vytvářel sám.
 
 Běžnou praxí v předmětu je otestování vlastního programu z předmětu Programování v Javě. Já ale nemám tuto možnost a tak jsem si na doporučení Miroslava Bureše vybral aplikaci [UIS](https://projects.kiv.zcu.cz/tbuis/web/) - University Information System.
 
-Aplikace je vyvíjená a udržovaná výzkumnou skupinou [ReliSA](https://relisa.kiv.zcu.cz/) na Západočeké Univerzitě v Plzni. Jejím cílem je být semi-relalistickou platformou pro posuzování nových testovacích metod. Díky tomu je zdokumentovaná, má veřejně dostupné zdrojové kódy, je dostupná v řadě defektních verzí a existuje na ni široká paleta testů. Proto, aby měla tato práce nějaký smysl je ale nebudu kopírovat a budu si psát vlastní.
+Aplikace je vyvíjená a udržovaná výzkumnou skupinou [ReliSA](https://relisa.kiv.zcu.cz/) na Západočeké Univerzitě v Plzni. Jejím cílem je být semi-relalistickou platformou pro posuzování nových testovacích metod. Díky tomu je zdokumentovaná, má veřejně dostupné zdrojové kódy, je dostupná v řadě defektních verzí a existuje na ni široká paleta testů. Proto, aby měla tato práce nějaký smysl si ale samozřejmě napíšu vlastní.
  
 ## Popis aplikace
 UIS je univerzitní informační systém sloužící studentům a učitelům, podobně jako KOS na ČVUT. Uživatelé s ním interagují pomocí webového rozhraní.
@@ -66,16 +65,47 @@ Představuje uživatele, který chce používat UIS jako vysokoškolský učitel
 __Upozornění:__ Screenshoty ostatních stránek jsou ve složce _screenshots_.  
 
 ### Použité technologie
-UIS je napsaný v Javě pomocí JavaServer Pages a Springu. Dále využívá Apache Tomcat jako webserver, MySQL nebo MariaDB databázi a Hibernate ORM.
+UIS je napsaný v Javě pomocí JavaServer Pages a Springu. Dále využívá Apache Tomcat jako webserver, MySQL nebo MariaDB databázi a Hibernate ORM pro komunikaci s databází.
 
-## Části aplikace
+## Přehled částí aplikace
+Aplikace se skládá ze 3 hlavních částí a mnoha podčástí:
+
+- __DAO (Data Access Objects)__ - zápis a komunikace s databází
+  - ExaminationDateDao, GradeDao, GradeTypeDao, SubjectDao, UserDao
+- __Services__ - provádění požadavků
+  - PorterService
+  - RestoreDBService
+  - StudentService
+  - TeacherService
+  - UserService
+- __Web controllers__ - komunikace s webovou aplikací
+  - Student
+    - ExamDatesController 
+    , RegisterExamDatesController
+    , RegisterSubjectListController
+    , SubjectListController
+  - Teacher
+     - EvaluationTableController, ListOfAllTeachersController
+     , ListOfNotTaughtSubjectController
+     , ListOfTaughtSubjectController
+     , NewExamDateController
+     , NewGradeController
+     , TeachersExamTermsController
+  - ImportExportController
+  - LoginController
+  - OverviewController
+  - RestoreDbController
+
+Další části __annotations__, __config__, __domain__ a __utils__ jsou pomocné.
 
 
 ## Prioritizace částí aplikace
 Požadavky uživatelů jsou znázorněné na use-case diagramu:
-![use case diagram, (zdroj)[https://projects.kiv.zcu.cz/tbuis/web/page/uis]](./img/use-case.png)
 
-Různé use casy jsou pro uživatele samozřejmě různě důležité. Tuto informaci bychom získali rozhovory se zákazníky a budoucími uživateli. Jelikož nemám tuto možnost a téma je mi jako studentovi blízké, tak jsem ji odhadl.  
+![use case diagram, (https://projects.kiv.zcu.cz/tbuis/web/page/uis)](./img/use-case.png)
+
+Různé use casy jsou pro uživatele samozřejmě různě důležité. Tuto informaci bychom získali rozhovory se zákazníky a budoucími uživateli.  
+
 __Vysoká důležitost:__  
 
 - UC.01 Přihlášení
@@ -92,6 +122,13 @@ __Střední důležitost:__
 
 Ostatní use casy mají nízkou důležitost.
 
+V aplikaci odpovídá každému požadavku přibližně jeden proces.
+
+![Tabulka pro určení třídy rizika](./img/tridyRizika.png)
+
+
+## Test levels
+
 ## Testovací scénáře
 ### Testy vstupů
 Přestože se jedná o relativně sofistikovanou aplikaci, tak byl problém najít nějaký netriviální vstup. Nakonec jsem se rozhodl pro metodu `createNewExaminationTerm`, která slouží k vytvoření nového termínu zkoušky.
@@ -100,33 +137,48 @@ Přestože se jedná o relativně sofistikovanou aplikaci, tak byl problém naj�
 public boolean createNewExaminationTerm(Teacher teacher, Long subjectId, String dateOfTerm, String maxParticipants)
 ~~~
 
-Jako vstup aplikace jsem se rozhodl otestovat formulář na vytvoření nového termínu zkoušky.  
-
-Formulář obsahuje 2 uživatelsky zadatelné vstupy - _max pariticipants_ a _date and time_ a jeden skrytý vstup - _počet vypsaných zkoušek_, který se zahrnuje do vyhodnocení výrazu a zjistí se z hodnoty _subject_.
-
-![Vytvoření nového termínu zkoušky](./img/new-exam-date.png)
-
 #### Třídy ekvivalence
+Metodě odpovídá následující diagram tříd ekvivalence:
 
-__Max participants__  
-Maximální počet účastníků zkoušky musí být větší než 0 a zároveň menší než školní limit, který je v systému nastavený. V základu je 10.
+![](./img/newExam.png)
 
-__Počet vypsaných zkoušek__  
-Počet vypsaných zkoušek v předmětu je limitovaný danou hodnotou v systému (default je 3). Pokud jsme limitu dosáhli, nemůžeme vytvořit novou zkoušku.
-
-Počet vypsaných zkoušek je vždý kladné celé číslo a tak nemusíme brát v potaz záporné hodnoty.
-
-__Datum__  
-Datum je nejkomplikovanější vstupní parametr. Zadává se jako string a musí splňovat 3 podmínky:
-
-1. validní formát
-2. datum je v budoucnosti bližší než 1 rok
-3. dvě zkoušky musí být od sebe dál než 24h
+- _teacher_ a _subjectId_ jsou diskrétní hodnoty
+- u _dateOfTerm_ je vyhodnocení výrazu navázané na současné datum. Označím současné datum jako `now()` a _dateOfTerm_ jako `d`. Pro validní formát data platí následující rozdělení:
+  - d <= now()
+  - d > now() & d <= now() + 1 rok
+  - d > now() + 1 rok
+  - __Boundary values:__ now(), now() + 1s, now() + 1 rok, now() + 1 rok + 1s 
+- u _maxParticipants_ se hodnota min a max definuje v konfiguračním souboru. Pro defaultní hodnoty - min: 1, max: 10 a validní formát platí následující rozdělení (_maxParticipants_ = `mp`)
+  - mp < 1
+  - mp >= 1 & mp <= 10
+  - mp > 10
+  - __Boundary values:__ 0, 1, 10, 11
 
 #### Pairwise testing
+Vložením hodnot do ACTS a spuštěním generátoru pairwise kombinací získáme následující:
+
+| číslo kombinace | teacher | subjectId | dayOfTerm | maxParticipants |
+|---|---|---|---|---|
+| 1 | valid | NEexistující | invalid format | invalid format |
+| 2 | null | existující | invalid format | < min |
+| 3 | valid | existující | invalid format | >= min & <= max |
+| 4 | null | NEexistující | invalid format | > max |
+| 5 | null | existující | <= now() | invalid format |
+| 6 | valid | NEexistující | <= now() | < min |
+| 7 | null | NEexistující | <= now() | >= min & <= max |
+| 8 | valid | existující | <= now() | > max |
+| 9 | null | NEexistující | > now() & <= now() + 1 rok | invalid format |
+| 10 | valid | existující | > now() & <= now() + 1 rok | < min |
+| 11 | valid | NEexistující | > now() & <= now() + 1 rok | >= min & <= max |
+| 12 | null | NEexistující | > now() & <= now() + 1 rok | > max |
+| 13 | null | NEexistující | > now() + 1 rok | invalid format |
+| 14 | valid | existující | > now() + 1 rok | < min |
+| 15 | valid | existující | > now() + 1 rok | >= min & <= max |
+| 16 | valid | existující | > now() + 1 rok | > max |
+
 
 ### Testy průchodu
-Vytvořil jsem diagram pro proces Zápis předmětu studentem.
+Vytvořil jsem diagram pro proces _Zápis předmětu studentem_.
 
 ![Zápis předmětu studentem](./img/procesEnroll.png)
 
@@ -147,12 +199,16 @@ A k němu v Oxygenu vygeneroval procesní testy s TLD 2.
 |Testovací data|Známky: A, B, B, C, E|
 |Očekávaný výsledek|Zobrazí se hláška "Sucess" a hodnocení se propíše do databáze.|
 
+## Implementace testů
+Aplikace je napsaná v neaktuální verzi Springu (4.3.2) a proto jsem se rozhodl použít i neaktuální JUnit ve verzi 4.12. Na základní unit testy by šlo použít i nejnovější JUnit, ale pro integrační testy, ve kterých už se se Spring interaguje, je potřeba použít starší verzi.
+
 ### Unit testy
-Požadavaných 5 Unit testů je v kontextu aplikace velmi málo. Proto jsem otestoval _BaseDateUtility_ a částečně _BaseStudentService_.
+Požadavaných 5 Unit testů je v kontextu aplikace málo. Otestoval jsem s nimi _BaseDateUtility_ a částečně _BaseStudentService_. Ve všech testech je použito mockito.
 
 ![](./img/unitTesty.png)
 
-Ve všech testech je použito mockování.
-
 ### Integrační testy
+Integrační testy jsem prováděl opět na tříde `BaseStudentService`. Na rozdíl od Unit testů jsem nemockoval komunikaci s databází, ale používal skutečnou komunikaci.
+
+![Integrační testy](./img/integration.png)
 
