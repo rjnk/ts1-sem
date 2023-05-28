@@ -94,9 +94,9 @@ Různé use casy jsou pro uživatele samozřejmě různě důležité. Tuto info
 ### Testy vstupů
 Přestože se jedná o relativně sofistikovanou aplikaci, tak byl problém najít nějaký netriviální vstup. Nakonec jsem se rozhodl pro metodu `createNewExaminationTerm`, která slouží k vytvoření nového termínu zkoušky.
 
-~~~{.java}
+```java
 public boolean createNewExaminationTerm(Teacher teacher, Long subjectId, String dateOfTerm, String maxParticipants)
-~~~
+```
 
 #### Třídy ekvivalence
 Metodě odpovídá následující diagram tříd ekvivalence:
@@ -168,8 +168,31 @@ Požadavaných 5 Unit testů je v kontextu aplikace málo. Otestoval jsem s nimi
 
 ![](./img/unitTesty.png)
 
+Za zmínku stojí následující jednoduše vypadajícíc Unit testy:
+
+```java
+    // tento test odhalil bug/feature v produkcni verzi
+    // originalni verze si mesic prepocita, tj. 40. mesic je 4. mesic v roce 2027
+    @Test
+    public void stringToDate_invalidMonth_null() {
+        String stringDate = "2023-40-05 10:30";
+        assertNull(utility.stringToDate(stringDate));
+    }
+
+    // tento test odhalil bug v produkcni verzi
+    @Test
+    public void stringToDate_hugeNumber_null() {
+        String stringDate = "9999-99-99 99:99";
+        assertNull(utility.stringToDate(stringDate));
+    }
+```
+
 ### Integrační testy
-Integrační testy jsem prováděl opět na tříde `BaseStudentService`. Na rozdíl od Unit testů jsem nemockoval komunikaci s databází, ale používal skutečnou komunikaci.
+Integrační testy jsem prováděl opět na mezi třídou `BaseStudentService` a `userDao`, `examinationDateDao`. Na rozdíl od Unit testů jsem nemockoval komunikaci s databází, ale zapisoval pomocí DAO do ní.
 
 ![Integrační testy](./img/integration.png)
 
+## Závěr
+V semestrální práci jsem si na jednom místě vyzkoušel techniky probírané v průběhu roku. Uvědomil jsem si, jak je testování relativně malé aplikace obsáhlé.
+
+Nejvíc zabrat mi dalo popisování a prioritizace částí aplikace, protože jsem si nebyl úplně jistý, jestli postupuji správným směrem. Nejvíc mě potěšilo odhalení chyby s datem, která způsobí pád masivně testované aplikace :).
