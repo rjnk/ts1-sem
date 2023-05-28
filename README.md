@@ -1,9 +1,4 @@
----
-fontsize: 12px
-title: TS1 Semestrální práce - UIS
-author: Lukáš Rejnek
----
-
+# Semestrální práce TS1
 V tomto dokumentu popisuji testovanou aplikaci a testovací
 scénáře v mojí semestrální práci. Vytvářel jsem jí sám.
 
